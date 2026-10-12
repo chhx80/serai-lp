@@ -18,3 +18,15 @@ cache headers, 404 page).
 To do before launch: replace the "Coming soon" App Store button in
 `index.html` with Apple's official "Download on the App Store" badge and
 the app's App Store link.
+
+## Search and answer engines
+
+- Structured data (JSON-LD): `WebSite`, `Person` (publisher), `MobileApplication`
+  with offers, and `FAQPage` on the landing and support pages. The FAQ
+  answers in the JSON-LD must match the visible text.
+- `assets/og-image.png` (1200×630) is the share image; `llms.txt` describes
+  the app for AI answer engines; `sitemap.xml` and `robots.txt` allow all
+  crawlers.
+- At launch: add `<meta name="apple-itunes-app" content="app-id=…">` and the
+  App Store link, replace the Coming soon button with Apple's official badge,
+  and register the site in Google Search Console and Bing Webmaster Tools.

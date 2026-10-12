@@ -1,3 +1,5 @@
+# Search engines and AI answer engines are welcome.
 User-agent: *
 Allow: /
+
 Sitemap: https://getserai.app/sitemap.xml

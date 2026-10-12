@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://getserai.app/sitemap.xml

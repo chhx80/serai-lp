@@ -3,7 +3,7 @@
 > Serai is a word-search game for learning vocabulary on iPhone. The player reads a word in their own language and finds its translation on a fully tiled board of letters by swiping through it; words snake around corners and every letter belongs to exactly one word.
 
 - Platform: iPhone, iOS 15 or later. Coming soon to the App Store.
-- Languages (learn from any into any other; app interface in the same languages): English, German, Russian, French, Kazakh, Czech, Spanish, Chinese (Simplified, with pinyin) and Korean.
+- Languages (learn from any into any other; app interface in the same languages): English, German, Russian, French, Kazakh, Czech, Spanish, Chinese (Simplified, with pinyin), Korean and Italian.
 - Content: about 8,000 words, CEFR levels A1 to C2, grouped into everyday topics; placement test; spaced review; a Daily Hunt board that is the same for everyone each day.
 - Progress: six level badges (Wayfarer, Trader, Caravaneer, Interpreter, Envoy, Keeper of the Serai), also Game Center achievements.
 - Price: free to download, no ads. Optional one-time purchase "The Taklamakan Crossing" (€9.99) adds description clues: a short description in your language instead of the translation.

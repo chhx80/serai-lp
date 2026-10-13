@@ -1,0 +1,35 @@
+# Translating the landing page
+
+`en.json` maps a unit id to an English text; `<lang>.json` maps the same ids
+to the translation. Some units are HTML: keep every tag and attribute exactly
+as it is (only translate the text between tags).
+
+Context and terms:
+
+- The page sells the iPhone app Serai, a vocabulary word-search game. Same
+  facts and wording as the App Store description of your language in
+  `docs/branding/appstore/listing.csv` of the app repo
+  (/Users/christianheuer/git/vocab-tool), which is the reference for tone.
+- Terms as the app uses them: `content/ui/<lang>/` in the app repo
+  (`glossary_<lang>.csv` if present, `badge.csv` for the six badge names and
+  their "… badge" alt texts, `world.csv` for the six world names "The First
+  Serai" … "The Keeper's Hall", `topic.csv` for Kitchen, `language.csv` for
+  language names, `home.csv`/`hunt.csv` for "found").
+- Brand names stay English: Serai, Daily Hunt, The Taklamakan Crossing,
+  Game Center, App Store, iPhone, iOS. Level codes A1–C2 stay.
+- The demo board's answers are English (SPOON, BREAD, CUP, TEA): the reader
+  of your page speaks your language and learns English. So the clue words
+  `Löffel`, `Brot`, `Tasse`, `Tee` become the words for spoon, bread, cup,
+  tea in YOUR language (lowercase or capitalised as your language writes a
+  dictionary noun), and "Löffel · SPOON" becomes "<your spoon> · SPOON";
+  "Brot · 5" keeps the 5 (letters of BREAD); "Tee · 3" keeps 3.
+- "You eat soup with it" is the app's description clue of spoon: use the
+  app's own one from `content/dictionary/desc/<lang>_NN.csv` (row id
+  `spoon`), so the page matches the app.
+- "2/4 found": keep "2/4".
+- "Coming soon on the" + "App Store" form Apple's badge ("Coming soon on the
+  App Store"): translate as Apple's localized badge does (e.g. German "Bald
+  im" + "App Store").
+- "Language" labels the list of the page's languages.
+- Keep it natural for your market; no superlatives. Russia: the purchase
+  cannot be bought there, but the text stays as is.

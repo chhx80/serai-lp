@@ -14,5 +14,6 @@
 ## Pages
 
 - [Landing page](https://getserai.app/): what Serai is, how it works, languages, badges, FAQ
+- The same page in German, Russian, French, Kazakh, Czech, Spanish, Chinese, Korean, Italian and Mongolian: https://getserai.app/de/, /ru/, /fr/, /kk/, /cs/, /es/, /zh/, /ko/, /it/, /mn/
 - [Support](https://getserai.app/support.html): how to play, restoring purchases, moving progress, reminders, Game Center
 - [Privacy policy](https://getserai.app/privacy.html): data handling (FADP and GDPR)

@@ -30,3 +30,18 @@ the app's App Store link.
 - At launch: add `<meta name="apple-itunes-app" content="app-id=…">` and the
   App Store link, replace the Coming soon button with Apple's official badge,
   and register the site in Google Search Console and Bing Webmaster Tools.
+
+## Languages
+
+`index.html` is the English source. The other ten pages (`/de/`, `/ru/`, …)
+are generated from it:
+
+```
+python3 tool/i18n.py extract   # after editing index.html: i18n/en.json
+python3 tool/i18n.py build     # writes <lang>/index.html, hreflang, sitemap
+```
+
+Translations are in `i18n/<lang>.json` (same keys as `en.json`); notes for
+translators in `i18n/NOTES.md`. A language whose file misses a key is not
+built, so a new English text is visible in every language only once it is
+translated.

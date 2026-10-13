@@ -5,6 +5,7 @@
 - Platform: iPhone, iOS 15 or later. Coming soon to the App Store.
 - Languages (learn from any into any other; app interface in the same languages): English, German, Russian, French, Kazakh, Czech, Spanish, Chinese (Simplified, with pinyin), Korean and Italian.
 - Content: about 8,000 words, CEFR levels A1 to C2, grouped into everyday topics; placement test; spaced review; a Daily Hunt board that is the same for everyone each day.
+- Name: a serai (caravanserai) was a walled inn on the Silk Road where traders from many lands rested and swapped words; in the app every board is a stop on that road, and the level path runs from The First Serai (A1) to The Keeper's Hall (C2).
 - Progress: six level badges (Wayfarer, Trader, Caravaneer, Interpreter, Envoy, Keeper of the Serai), also Game Center achievements.
 - Price: free to download, no ads. Optional one-time purchase "The Taklamakan Crossing" (€9.99) adds description clues: a short description in your language instead of the translation.
 - Privacy: no account, works offline, progress stays on the device, no personal data collected, no tracking.

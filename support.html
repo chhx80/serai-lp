@@ -45,14 +45,29 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-of
 summary{cursor:pointer;list-style:none}summary::-webkit-details-marker{display:none}
 details[open] summary svg{transform:rotate(180deg)}
 img{max-width:100%}
+.site-header{display:flex;flex-wrap:wrap;align-items:center;gap:12px 28px;padding:20px 0}
+.main-nav{display:flex;flex-wrap:wrap;gap:6px 22px;flex:1;justify-content:flex-end;font-size:15px}
+.get-app{display:none}
+@media (max-width:719px){
+.site-header{gap:14px 12px;padding:16px 0 4px}
+.site-header>a:first-child{margin-right:auto}
+.get-app{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border-radius:12px;background:var(--ink);color:var(--ground);font-size:14px;font-weight:600;white-space:nowrap}
+.get-app:hover{color:var(--ground)}
+.main-nav{flex:0 0 auto;width:calc(100% + 48px);margin:0 -24px;padding:0 24px 4px;box-sizing:border-box;flex-wrap:nowrap;justify-content:flex-start;gap:8px;overflow-x:auto;scrollbar-width:none;-webkit-mask-image:linear-gradient(to right,#000 90%,transparent);mask-image:linear-gradient(to right,#000 90%,transparent)}
+.main-nav::-webkit-scrollbar{display:none}
+.main-nav a{flex:none;display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:14px;white-space:nowrap}
+.main-nav a[aria-current]{border-color:var(--accent)}
+}
+
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://getserai.app/#website", "url": "https://getserai.app/", "name": "Serai", "inLanguage": "en", "publisher": {"@id": "https://getserai.app/#publisher"}}, {"@type": "Person", "@id": "https://getserai.app/#publisher", "name": "Christian Heuer", "email": "mailto:chris@getserai.app", "address": {"@type": "PostalAddress", "addressLocality": "Zollikon", "addressCountry": "CH"}}, {"@type": "FAQPage", "@id": "https://getserai.app/support.html#faq", "url": "https://getserai.app/support.html", "mainEntity": [{"@type": "Question", "name": "How do I play?", "acceptedAnswer": {"@type": "Answer", "text": "Every clue is a word in your language; its translation is hidden on the board. Put your finger on the first letter and slide through the word without lifting it. Words bend around corners. Tap the ? on the Home screen to see the guide again."}}, {"@type": "Question", "name": "Why can’t I find a word in a straight line?", "acceptedAnswer": {"@type": "Answer", "text": "Words in Serai snake through the board: left, right, up and down. Every letter belongs to exactly one word, so the remaining letters always lead you to the last words."}}, {"@type": "Question", "name": "I bought The Taklamakan Crossing. How do I get it on another iPhone?", "acceptedAnswer": {"@type": "Answer", "text": "Open Me › Expeditions and tap Restore purchases, signed in with the same Apple ID. With Family Sharing, members of your family get it too."}}, {"@type": "Question", "name": "How do I move my progress to a new iPhone?", "acceptedAnswer": {"@type": "Answer", "text": "Your progress is stored only on your iPhone. In Me, tap Export to save a backup file, then Import it on the new iPhone. Progress is also part of your normal iCloud backup."}}, {"@type": "Question", "name": "My daily reminder doesn’t show up.", "acceptedAnswer": {"@type": "Answer", "text": "Check that notifications for Serai are allowed in the iPhone Settings, and that the reminder is on in Me › Reminder."}}, {"@type": "Question", "name": "How do I change my languages or level?", "acceptedAnswer": {"@type": "Answer", "text": "In Me, tap I speak, I’m learning or Level. The app language follows your iPhone and can be changed in Me › App language."}}, {"@type": "Question", "name": "Why don’t my achievements appear in Game Center?", "acceptedAnswer": {"@type": "Answer", "text": "Sign in to Game Center in the iPhone Settings, then open Serai again. Badges you already earned are added the next time the app starts."}}]}]}</script>
 <script>(function(){var t='dark';try{t=localStorage.getItem('serai-theme')==='light'?'light':'dark'}catch(e){}document.documentElement.dataset.theme=t;var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='light'?'#EFF0FB':'#0F1022'})()</script>
 </head>
 <body>
-<div style="background: var(--ground); color: var(--ink); font-family: Geologica, system-ui, sans-serif; min-height: 100vh"><div style="max-width: 1120px; margin: 0 auto; padding: 0 24px"><header style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; padding: 20px 0">
+<div style="background: var(--ground); color: var(--ink); font-family: Geologica, system-ui, sans-serif; min-height: 100vh"><div style="max-width: 1120px; margin: 0 auto; padding: 0 24px"><header class="site-header">
 <a href="/" style="display: flex; align-items: center; gap: 12px; color: var(--ink)"><img width="40" height="40" src="/assets/logo-80.webp" alt="" style="width: 40px; height: 40px; border-radius: 10px"><span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px">Serai</span></a>
-<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 6px 22px; flex: 1; justify-content: flex-end; font-size: 15px">
+<a class="get-app" href="/#get">Get the app</a>
+<nav class="main-nav" aria-label="Main">
 <a href="/#how">How it works</a><a href="/#languages">Languages</a><a href="/#journey">Journey</a><a href="/support.html" aria-current="page">Support</a>
 </nav>
 </header>

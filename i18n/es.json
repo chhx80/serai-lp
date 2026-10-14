@@ -70,7 +70,6 @@
  "e90948ee6e": "Apariencia",
  "89b86ab0e6": "Idioma",
  "db07be1844": "Idiomas",
- "e2632e91c7": "El nombre",
  "e40c092585": "El camino",
  "03688ba6aa": "Preguntas",
  "f32d5a3b17": "Soporte",
@@ -110,5 +109,7 @@
  "7e6ae44063": "cuchara",
  "4f504dfa73": "taza",
  "7ba792adcb": "té",
- "1d44b58bba": "Reproducir animación"
+ "1d44b58bba": "Reproducir animación",
+ "f353421634": "Descargar",
+ "a493597e09": "Por qué Serai"
 }

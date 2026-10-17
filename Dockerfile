@@ -14,4 +14,5 @@ COPY zh /usr/share/nginx/html/zh
 COPY ko /usr/share/nginx/html/ko
 COPY it /usr/share/nginx/html/it
 COPY mn /usr/share/nginx/html/mn
+COPY tr /usr/share/nginx/html/tr
 EXPOSE 80

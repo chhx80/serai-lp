@@ -33,7 +33,7 @@ the app's App Store link.
 
 ## Languages
 
-`index.html` is the English source. The other ten pages (`/de/`, `/ru/`, …)
+`index.html` is the English source. The other eleven pages (`/de/`, `/ru/`, …)
 are generated from it:
 
 ```

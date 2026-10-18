@@ -16,12 +16,13 @@ import hashlib, html, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-LANGS = ['en', 'de', 'ru', 'fr', 'kk', 'cs', 'es', 'zh', 'ko', 'it', 'mn', 'tr']
+LANGS = ['en', 'de', 'ru', 'fr', 'kk', 'cs', 'es', 'zh', 'ko', 'it', 'mn', 'tr', 'ja']
 NATIVE = {'en': 'English', 'de': 'Deutsch', 'ru': 'Русский', 'fr': 'Français', 'kk': 'Қазақша',
-          'cs': 'Čeština', 'es': 'Español', 'zh': '中文', 'ko': '한국어', 'it': 'Italiano', 'mn': 'Монгол', 'tr': 'Türkçe'}
+          'cs': 'Čeština', 'es': 'Español', 'zh': '中文', 'ko': '한국어', 'it': 'Italiano', 'mn': 'Монгол', 'tr': 'Türkçe',
+          'ja': '日本語'}
 HREFLANG = {'zh': 'zh-Hans'}
 OG_LOCALE = {'en': 'en_US', 'de': 'de_DE', 'ru': 'ru_RU', 'fr': 'fr_FR', 'kk': 'kk_KZ', 'cs': 'cs_CZ',
-             'es': 'es_ES', 'zh': 'zh_CN', 'ko': 'ko_KR', 'it': 'it_IT', 'mn': 'mn_MN', 'tr': 'tr_TR'}
+             'es': 'es_ES', 'zh': 'zh_CN', 'ko': 'ko_KR', 'it': 'it_IT', 'mn': 'mn_MN', 'tr': 'tr_TR', 'ja': 'ja_JP'}
 BLOCK = re.compile(r'(<(p|h1|h2|h3|dt|dd|figcaption|title)(?:\s[^>]*)?>)(.*?)(</\2>)', re.S)
 ATTR = re.compile(r'\b(alt|aria-label)="([^"]*)"')
 META = re.compile(r'(<meta (?:name="description"|property="og:(?:title|description|image:alt)") content=")([^"]*)(")')
@@ -29,9 +30,18 @@ LOOSE = re.compile(r'>([^<>]*[^\s<>][^<>]*)<')
 KEEP = re.compile(r'^[\s\W\d]*$|^[A-ZÀ-ÿ]$')  # punctuation, numbers, single letters (board cells)
 # Names that stay as they are on every page.
 VERBATIM = {'Serai', 'Daily Hunt', 'The Taklamakan Crossing', 'English', 'Deutsch', 'Русский', 'Français',
-            'Қазақша', 'Čeština', 'Español', '中文', '한국어', 'Italiano', 'Монгол', 'Türkçe', 'chris@getserai.app',
+            'Қазақша', 'Čeština', 'Español', '中文', '한국어', 'Italiano', 'Монгол', 'Türkçe', '日本語', 'chris@getserai.app',
             '© 2026 Christian Heuer', 'kārvān', 'sarāy', 'caravanserai',
             'A1', 'A2', 'B1', 'B2', 'C1', 'C2', ''}
+
+
+# Unbounded and Geologica have no Chinese, Japanese or Korean glyphs. On
+# these pages the text falls back to fonts of the page's language (so Han
+# characters take that language's glyph forms); Latin letters stay in
+# Unbounded/Geologica.
+CJK = {'ja': '"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo',
+       'zh': '"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei"',
+       'ko': '"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic"'}
 
 
 # The animation's texts: the clue words (the board's answers SPOON, BREAD,
@@ -187,6 +197,9 @@ def build():
             # Unbounded has no Kazakh or Mongolian letters (Ә Ө Ү …): headings
             # use Geologica, like the app.
             page = page.replace('</style>', '[style*="Unbounded"]{font-family:Geologica,system-ui,sans-serif!important}\n</style>', 1)
+        if lang in CJK:
+            page = page.replace('</style>', f'[style*="Unbounded"],.hero-cleared p{{font-family:Unbounded,{CJK[lang]},sans-serif!important}}\n'
+                                f'[style*="Geologica"]{{font-family:Geologica,{CJK[lang]},system-ui,sans-serif!important}}\n</style>', 1)
         page = re.sub(r'<!-- languages -->.*?<!-- /languages -->', switcher(lang, t('Language')), page, flags=re.S)
         out = ROOT / lang / 'index.html'
         out.parent.mkdir(exist_ok=True)

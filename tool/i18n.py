@@ -16,13 +16,13 @@ import hashlib, html, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-LANGS = ['en', 'de', 'ru', 'fr', 'kk', 'cs', 'es', 'zh', 'ko', 'it', 'mn', 'tr', 'ja', 'pt']
+LANGS = ['en', 'de', 'ru', 'fr', 'kk', 'cs', 'es', 'zh', 'ko', 'it', 'mn', 'tr', 'ja', 'pt', 'uk']
 NATIVE = {'en': 'English', 'de': 'Deutsch', 'ru': 'Русский', 'fr': 'Français', 'kk': 'Қазақша',
           'cs': 'Čeština', 'es': 'Español', 'zh': '中文', 'ko': '한국어', 'it': 'Italiano', 'mn': 'Монгол', 'tr': 'Türkçe',
-          'ja': '日本語', 'pt': 'Português'}
+          'ja': '日本語', 'pt': 'Português', 'uk': 'Українська'}
 HREFLANG = {'zh': 'zh-Hans', 'pt': 'pt-BR'}
 OG_LOCALE = {'en': 'en_US', 'de': 'de_DE', 'ru': 'ru_RU', 'fr': 'fr_FR', 'kk': 'kk_KZ', 'cs': 'cs_CZ',
-             'es': 'es_ES', 'zh': 'zh_CN', 'ko': 'ko_KR', 'it': 'it_IT', 'mn': 'mn_MN', 'tr': 'tr_TR', 'ja': 'ja_JP', 'pt': 'pt_BR'}
+             'es': 'es_ES', 'zh': 'zh_CN', 'ko': 'ko_KR', 'it': 'it_IT', 'mn': 'mn_MN', 'tr': 'tr_TR', 'ja': 'ja_JP', 'pt': 'pt_BR', 'uk': 'uk_UA'}
 BLOCK = re.compile(r'(<(p|h1|h2|h3|dt|dd|figcaption|title)(?:\s[^>]*)?>)(.*?)(</\2>)', re.S)
 ATTR = re.compile(r'\b(alt|aria-label)="([^"]*)"')
 META = re.compile(r'(<meta (?:name="description"|property="og:(?:title|description|image:alt)") content=")([^"]*)(")')
@@ -30,7 +30,7 @@ LOOSE = re.compile(r'>([^<>]*[^\s<>][^<>]*)<')
 KEEP = re.compile(r'^[\s\W\d]*$|^[A-ZÀ-ÿ]$')  # punctuation, numbers, single letters (board cells)
 # Names that stay as they are on every page.
 VERBATIM = {'Serai', 'Daily Hunt', 'English', 'Deutsch', 'Русский', 'Français',
-            'Қазақша', 'Čeština', 'Español', '中文', '한국어', 'Italiano', 'Монгол', 'Türkçe', '日本語', 'Português', 'chris@getserai.app',
+            'Қазақша', 'Čeština', 'Español', '中文', '한국어', 'Italiano', 'Монгол', 'Türkçe', '日本語', 'Português', 'Українська', 'chris@getserai.app',
             '© 2026 Christian Heuer', 'kārvān', 'sarāy', 'caravanserai',
             'A1', 'A2', 'B1', 'B2', 'C1', 'C2', ''}
 

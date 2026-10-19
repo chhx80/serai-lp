@@ -17,4 +17,5 @@ COPY mn /usr/share/nginx/html/mn
 COPY tr /usr/share/nginx/html/tr
 COPY ja /usr/share/nginx/html/ja
 COPY pt /usr/share/nginx/html/pt
+COPY uk /usr/share/nginx/html/uk
 EXPOSE 80

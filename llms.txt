@@ -3,7 +3,7 @@
 > Serai is a word-search game for learning vocabulary on iPhone. The player reads a word in their own language and finds its translation on a fully tiled board of letters by swiping through it; words snake around corners and every letter belongs to exactly one word.
 
 - Platform: iPhone, iOS 15 or later. Coming soon to the App Store.
-- Languages (learn from any into any other; app interface in the same languages): English, German, Russian, French, Kazakh, Czech, Spanish, Chinese (Simplified, with pinyin), Korean, Italian, Mongolian, Turkish, Japanese (played in kana; after a find the word is shown with its kanji) and Portuguese (Brazilian).
+- Languages (learn from any into any other; app interface in the same languages): English, German, Russian, French, Kazakh, Czech, Spanish, Chinese (Simplified, with pinyin), Korean, Italian, Mongolian, Turkish, Japanese (played in kana; after a find the word is shown with its kanji), Portuguese (Brazilian) and Ukrainian.
 - Content: about 8,000 words, CEFR levels A1 to C2, grouped into everyday topics; placement test; spaced review; a Daily Hunt board that is the same for everyone each day.
 - Name: a serai (caravanserai) was a walled inn on the Silk Road where traders from many lands rested and swapped words; in the app every board is a stop on that road, and the level path runs from The First Serai (A1) to The Keeper's Hall (C2).
 - Progress: six level badges (Wayfarer, Trader, Caravaneer, Interpreter, Envoy, Keeper of the Serai), also Game Center achievements.
@@ -17,6 +17,6 @@
 ## Pages
 
 - [Landing page](https://getserai.app/): what Serai is, how it works, languages, badges, expeditions, FAQ
-- The same page in German, Russian, French, Kazakh, Czech, Spanish, Chinese, Korean, Italian, Mongolian, Turkish, Japanese and Portuguese: https://getserai.app/de/, /ru/, /fr/, /kk/, /cs/, /es/, /zh/, /ko/, /it/, /mn/, /tr/, /ja/, /pt/
+- The same page in German, Russian, French, Kazakh, Czech, Spanish, Chinese, Korean, Italian, Mongolian, Turkish, Japanese, Portuguese and Ukrainian: https://getserai.app/de/, /ru/, /fr/, /kk/, /cs/, /es/, /zh/, /ko/, /it/, /mn/, /tr/, /ja/, /pt/, /uk/
 - [Support](https://getserai.app/support.html): how to play, restoring purchases, moving progress, reminders, Game Center
 - [Privacy policy](https://getserai.app/privacy.html): data handling (FADP and GDPR)

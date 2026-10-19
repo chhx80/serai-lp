@@ -15,8 +15,15 @@ Context and terms:
   their "… badge" alt texts, `world.csv` for the six world names "The First
   Serai" … "The Keeper's Hall", `topic.csv` for Kitchen, `language.csv` for
   language names, `home.csv`/`hunt.csv` for "found").
-- Brand names stay English: Serai, Daily Hunt, The Taklamakan Crossing,
-  Game Center, App Store, iPhone, iOS. Level codes A1–C2 stay.
+- Brand names stay English: Serai, Daily Hunt, Game Center, App Store,
+  iPhone, iOS. Level codes A1–C2 stay.
+- The expeditions are named as in the app (`brand.csv`: brand.taklamakanCrossing,
+  brand.jadeGate); their story and unlock lines are the app's own
+  (`expedition.csv`: expedition.taklamakan.*, expedition.jadeGate.*).
+- "Opposite of cold" is the Jade Gate's sample clue: the app's `hunt.opposite`
+  (`hunt.csv`) with {word} = cold. "cold" and the answer HOT stay English (the
+  clue word is in the language being learned).
+- The Jade Gate has no price yet: never add one.
 - The demo board's answers are English (SPOON, BREAD, CUP, TEA): the reader
   of your page speaks your language and learns English. So the clue words
   `Löffel`, `Brot`, `Tasse`, `Tee` become the words for spoon, bread, cup,

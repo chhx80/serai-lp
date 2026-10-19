@@ -29,7 +29,7 @@ META = re.compile(r'(<meta (?:name="description"|property="og:(?:title|descripti
 LOOSE = re.compile(r'>([^<>]*[^\s<>][^<>]*)<')
 KEEP = re.compile(r'^[\s\W\d]*$|^[A-ZÀ-ÿ]$')  # punctuation, numbers, single letters (board cells)
 # Names that stay as they are on every page.
-VERBATIM = {'Serai', 'Daily Hunt', 'The Taklamakan Crossing', 'English', 'Deutsch', 'Русский', 'Français',
+VERBATIM = {'Serai', 'Daily Hunt', 'English', 'Deutsch', 'Русский', 'Français',
             'Қазақша', 'Čeština', 'Español', '中文', '한국어', 'Italiano', 'Монгол', 'Türkçe', '日本語', 'Português', 'chris@getserai.app',
             '© 2026 Christian Heuer', 'kārvān', 'sarāy', 'caravanserai',
             'A1', 'A2', 'B1', 'B2', 'C1', 'C2', ''}
@@ -103,7 +103,7 @@ def units(src, translate):
                 for k, v in o.items():
                     if k in ('description', 'text', 'alternateName') and isinstance(v, str):
                         o[k] = translate(v)
-                    elif k == 'name' and isinstance(v, str) and o.get('@type') == 'Question':
+                    elif k == 'name' and isinstance(v, str) and o.get('@type') in ('Question', 'Offer'):
                         o[k] = translate(v)
                     else:
                         walk(v)

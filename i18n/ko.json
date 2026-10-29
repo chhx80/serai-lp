@@ -30,12 +30,6 @@
  "0ef10b2d32": "위에서 내려다본 전형적인 카라반사라이",
  "31be25ef95": "나그네에서 객잔 주인까지",
  "44d1a232c6": "레벨을 통과할 때마다 그 레벨의 배지를 받아요. 첫 객잔에서 시작해 카라반사라이의 주인이 될 때까지. 모든 배지는 Game Center 업적이기도 해요.",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">나그네</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 A1</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">상인</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 A2</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">카라반 대원</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 B1</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">통역관</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 B2</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">사신</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 C1</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">객잔 주인</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 C2</span>",
  "ef8bf27efc": "탐험 · 일회성 구입",
  "3e22373b8f": "더 도전하고 싶나요?",
  "77fe5817a0": "타클라마칸 횡단",
@@ -141,5 +135,11 @@
  "cbc26356bd": "음식",
  "7165ac380f": "기분",
  "204db3663c": "달",
- "81e1ad1913": "단어 사다리를 더해 주는 선택형 일회성 구입."
+ "81e1ad1913": "단어 사다리를 더해 주는 선택형 일회성 구입.",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">나그네</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 A1</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">상인</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 A2</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">카라반 대원</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 B1</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">통역관</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 B2</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">사신</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 C1</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">객잔 주인</span><span style=\"font-size: 13px; color: var(--muted)\">레벨 C2</span>"
 }

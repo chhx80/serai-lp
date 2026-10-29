@@ -30,12 +30,6 @@
  "0ef10b2d32": "Typický karavanseraj z ptačí perspektivy",
  "31be25ef95": "Od Poutníka po Pána karavanseraje",
  "44d1a232c6": "Slož úroveň a získej její odznak, od prvního karavanseraje až po pána karavanseraje. Každý odznak je zároveň úspěchem v Game Center.",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Poutník</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň A1</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Kupec</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň A2</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Karavaník</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň B1</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Tlumočník</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň B2</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Vyslanec</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň C1</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Pán karavanseraje</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň C2</span>",
  "ef8bf27efc": "EXPEDICE · JEDNORÁZOVÉ NÁKUPY",
  "3e22373b8f": "Chceš víc?",
  "77fe5817a0": "Přes Taklamakan",
@@ -141,5 +135,11 @@
  "7165ac380f": "nálada",
  "204db3663c": "měsíc",
  "81e1ad1913": "Volitelný jednorázový nákup, který přidává slovní žebříky.",
- "ba186e6c62": "BOOT, FOOT, FOOD, MOOD, MOON"
+ "ba186e6c62": "BOOT, FOOT, FOOD, MOOD, MOON",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Poutník</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň A1</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Kupec</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň A2</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Karavaník</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň B1</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Tlumočník</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň B2</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Vyslanec</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň C1</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Pán karavanseraje</span><span style=\"font-size: 13px; color: var(--muted)\">Úroveň C2</span>"
 }

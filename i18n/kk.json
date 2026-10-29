@@ -30,12 +30,6 @@
  "0ef10b2d32": "Әдеттегі керуенсарай, жоғарыдан көрінісі",
  "31be25ef95": "Жолаушыдан Керуенсарай иесіне дейін",
  "44d1a232c6": "Деңгейден өтіп, оның төсбелгісін алыңыз: алғашқы керуенсарайдан керуенсарай иесіне дейін. Әр төсбелгі Game Center жетістігі ретінде де беріледі.",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Жолаушы</span><span style=\"font-size: 13px; color: var(--muted)\">A1 деңгейі</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Саудагер</span><span style=\"font-size: 13px; color: var(--muted)\">A2 деңгейі</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Керуенші</span><span style=\"font-size: 13px; color: var(--muted)\">B1 деңгейі</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Тілмаш</span><span style=\"font-size: 13px; color: var(--muted)\">B2 деңгейі</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Елші</span><span style=\"font-size: 13px; color: var(--muted)\">C1 деңгейі</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Керуенсарай иесі</span><span style=\"font-size: 13px; color: var(--muted)\">C2 деңгейі</span>",
  "ef8bf27efc": "ЭКСПЕДИЦИЯЛАР · БІР РЕТТІК САТЫП АЛУ",
  "3e22373b8f": "Көбірек қалайсыз ба?",
  "77fe5817a0": "Такламакан арқылы",
@@ -141,5 +135,11 @@
  "7165ac380f": "көңіл-күй",
  "204db3663c": "ай",
  "81e1ad1913": "Сөз баспалдақтарын қосатын, міндетті емес бір реттік сатып алу.",
- "ba186e6c62": "BOOT, FOOT, FOOD, MOOD, MOON"
+ "ba186e6c62": "BOOT, FOOT, FOOD, MOOD, MOON",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Жолаушы</span><span style=\"font-size: 13px; color: var(--muted)\">A1 деңгейі</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Саудагер</span><span style=\"font-size: 13px; color: var(--muted)\">A2 деңгейі</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Керуенші</span><span style=\"font-size: 13px; color: var(--muted)\">B1 деңгейі</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Тілмаш</span><span style=\"font-size: 13px; color: var(--muted)\">B2 деңгейі</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Елші</span><span style=\"font-size: 13px; color: var(--muted)\">C1 деңгейі</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Керуенсарай иесі</span><span style=\"font-size: 13px; color: var(--muted)\">C2 деңгейі</span>"
 }

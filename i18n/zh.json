@@ -30,12 +30,6 @@
  "0ef10b2d32": "一座典型的商队驿站俯视图",
  "31be25ef95": "从旅人到驿站主人",
  "44d1a232c6": "每通过一个等级，就获得一枚徽章，从第一座驿站一路走到驿站主人。每枚徽章同时也是一项 Game Center 成就。",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">旅人</span><span style=\"font-size: 13px; color: var(--muted)\">A1 等级</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">商贾</span><span style=\"font-size: 13px; color: var(--muted)\">A2 等级</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">驼队行者</span><span style=\"font-size: 13px; color: var(--muted)\">B1 等级</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">通译</span><span style=\"font-size: 13px; color: var(--muted)\">B2 等级</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">使节</span><span style=\"font-size: 13px; color: var(--muted)\">C1 等级</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">驿站主人</span><span style=\"font-size: 13px; color: var(--muted)\">C2 等级</span>",
  "ef8bf27efc": "探险 · 一次性购买",
  "3e22373b8f": "想要更多挑战？",
  "77fe5817a0": "穿越塔克拉玛干",
@@ -141,5 +135,11 @@
  "cbc26356bd": "食物",
  "7165ac380f": "心情",
  "204db3663c": "月亮",
- "81e1ad1913": "可选的一次性购买，加入单词阶梯。"
+ "81e1ad1913": "可选的一次性购买，加入单词阶梯。",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">旅人</span><span style=\"font-size: 13px; color: var(--muted)\">A1 等级</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">商贾</span><span style=\"font-size: 13px; color: var(--muted)\">A2 等级</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">驼队行者</span><span style=\"font-size: 13px; color: var(--muted)\">B1 等级</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">通译</span><span style=\"font-size: 13px; color: var(--muted)\">B2 等级</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">使节</span><span style=\"font-size: 13px; color: var(--muted)\">C1 等级</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">驿站主人</span><span style=\"font-size: 13px; color: var(--muted)\">C2 等级</span>"
 }

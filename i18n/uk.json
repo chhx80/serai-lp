@@ -30,12 +30,6 @@
  "0ef10b2d32": "Типовий караван-сарай, вигляд згори",
  "31be25ef95": "Від Мандрівника до Хазяїна караван-сараю",
  "44d1a232c6": "Пройди рівень і отримай його значок: від першого караван-сараю до хазяїна караван-сараю. Кожен значок — це також досягнення в Game Center.",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Мандрівник</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень A1</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Купець</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень A2</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Караванник</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень B1</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Товмач</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень B2</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Посланець</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень C1</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Хазяїн караван-сараю</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень C2</span>",
  "ef8bf27efc": "ЕКСПЕДИЦІЇ · РАЗОВІ ПОКУПКИ",
  "3e22373b8f": "Хочеш більшого?",
  "77fe5817a0": "Через Такламакан",
@@ -141,5 +135,11 @@
  "7165ac380f": "настрій",
  "204db3663c": "місяць",
  "81e1ad1913": "Необов’язкова разова покупка, що додає драбинки слів.",
- "ba186e6c62": "BOOT, FOOT, FOOD, MOOD, MOON"
+ "ba186e6c62": "BOOT, FOOT, FOOD, MOOD, MOON",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Мандрівник</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень A1</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Купець</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень A2</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Караванник</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень B1</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Товмач</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень B2</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Посланець</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень C1</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Хазяїн караван-сараю</span><span style=\"font-size: 13px; color: var(--muted)\">Рівень C2</span>"
 }

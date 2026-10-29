@@ -30,12 +30,6 @@
  "0ef10b2d32": "Um caravançará típico, visto de cima",
  "31be25ef95": "De Viajante a Chefe do Caravançará",
  "44d1a232c6": "Conclua um nível e ganhe a insígnia dele, do seu primeiro caravançará até se tornar chefe do caravançará. Cada insígnia também é uma conquista do Game Center.",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Viajante</span><span style=\"font-size: 13px; color: var(--muted)\">Nível A1</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Comerciante</span><span style=\"font-size: 13px; color: var(--muted)\">Nível A2</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Guia de Caravana</span><span style=\"font-size: 13px; color: var(--muted)\">Nível B1</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Intérprete</span><span style=\"font-size: 13px; color: var(--muted)\">Nível B2</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Porta-voz</span><span style=\"font-size: 13px; color: var(--muted)\">Nível C1</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Chefe do Caravançará</span><span style=\"font-size: 13px; color: var(--muted)\">Nível C2</span>",
  "ef8bf27efc": "EXPEDIÇÕES · COMPRAS ÚNICAS",
  "3e22373b8f": "Quer mais desafio?",
  "77fe5817a0": "Travessia do Taklamakan",
@@ -141,5 +135,11 @@
  "cbc26356bd": "comida",
  "7165ac380f": "humor",
  "204db3663c": "lua",
- "81e1ad1913": "Compra única opcional que adiciona escadas de palavras."
+ "81e1ad1913": "Compra única opcional que adiciona escadas de palavras.",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Viajante</span><span style=\"font-size: 13px; color: var(--muted)\">Nível A1</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Comerciante</span><span style=\"font-size: 13px; color: var(--muted)\">Nível A2</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Guia de Caravana</span><span style=\"font-size: 13px; color: var(--muted)\">Nível B1</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Intérprete</span><span style=\"font-size: 13px; color: var(--muted)\">Nível B2</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Porta-voz</span><span style=\"font-size: 13px; color: var(--muted)\">Nível C1</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Chefe do Caravançará</span><span style=\"font-size: 13px; color: var(--muted)\">Nível C2</span>"
 }

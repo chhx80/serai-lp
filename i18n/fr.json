@@ -30,12 +30,6 @@
  "0ef10b2d32": "Un caravansérail typique, vu du ciel",
  "31be25ef95": "De Voyageur à Hôte des caravanes",
  "44d1a232c6": "Valide un niveau et obtiens son badge, de ta première halte jusqu’à l’hôte du caravansérail. Chaque badge est aussi un succès Game Center.",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Voyageur</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau A1</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Marchand</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau A2</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Caravanier</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau B1</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Interprète</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau B2</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Ambassadeur</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau C1</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Hôte des caravanes</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau C2</span>",
  "ef8bf27efc": "EXPÉDITIONS · ACHATS UNIQUES",
  "3e22373b8f": "Envie d’aller plus loin ?",
  "77fe5817a0": "Traversée du Taklamakan",
@@ -141,5 +135,11 @@
  "cbc26356bd": "nourriture",
  "7165ac380f": "humeur",
  "204db3663c": "lune",
- "81e1ad1913": "Achat unique facultatif qui ajoute des échelles de mots."
+ "81e1ad1913": "Achat unique facultatif qui ajoute des échelles de mots.",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Voyageur</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau A1</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Marchand</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau A2</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Caravanier</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau B1</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Interprète</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau B2</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Ambassadeur</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau C1</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Hôte des caravanes</span><span style=\"font-size: 13px; color: var(--muted)\">Niveau C2</span>"
 }

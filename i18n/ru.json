@@ -30,12 +30,6 @@
  "0ef10b2d32": "Типичный караван-сарай, вид сверху",
  "31be25ef95": "От Путника до Хозяина караван-сарая",
  "44d1a232c6": "Пройди уровень и получи его значок — от первого караван-сарая до хозяина караван-сарая. Каждый значок — это ещё и достижение в Game Center.",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Путник</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень A1</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Купец</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень A2</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Караванщик</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень B1</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Толмач</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень B2</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Посланник</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень C1</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Хозяин караван-сарая</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень C2</span>",
  "ef8bf27efc": "ЭКСПЕДИЦИИ · РАЗОВЫЕ ПОКУПКИ",
  "3e22373b8f": "Хочешь большего?",
  "77fe5817a0": "Через Такламакан",
@@ -141,5 +135,11 @@
  "7165ac380f": "настроение",
  "204db3663c": "луна",
  "81e1ad1913": "Разовая покупка по желанию: лесенки слов.",
- "ba186e6c62": "BOOT, FOOT, FOOD, MOOD, MOON"
+ "ba186e6c62": "BOOT, FOOT, FOOD, MOOD, MOON",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Путник</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень A1</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Купец</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень A2</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Караванщик</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень B1</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Толмач</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень B2</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Посланник</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень C1</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Хозяин караван-сарая</span><span style=\"font-size: 13px; color: var(--muted)\">Уровень C2</span>"
 }

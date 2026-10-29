@@ -30,12 +30,6 @@
  "0ef10b2d32": "上から見た典型的な隊商宿",
  "31be25ef95": "旅人から隊商宿のあるじへ",
  "44d1a232c6": "レベルを修了するごとにバッジがもらえます。はじめての隊商宿から、隊商宿のあるじまで。どのバッジもGame Centerの達成項目になります。",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">旅人</span><span style=\"font-size: 13px; color: var(--muted)\">レベルA1</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">商人</span><span style=\"font-size: 13px; color: var(--muted)\">レベルA2</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">隊商の一員</span><span style=\"font-size: 13px; color: var(--muted)\">レベルB1</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">通訳官</span><span style=\"font-size: 13px; color: var(--muted)\">レベルB2</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">使節</span><span style=\"font-size: 13px; color: var(--muted)\">レベルC1</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">隊商宿のあるじ</span><span style=\"font-size: 13px; color: var(--muted)\">レベルC2</span>",
  "ef8bf27efc": "探検 · 買い切り",
  "3e22373b8f": "もっと挑戦したい方へ。",
  "77fe5817a0": "タクラマカン横断",
@@ -141,5 +135,11 @@
  "cbc26356bd": "食べ物",
  "7165ac380f": "気分",
  "204db3663c": "月",
- "81e1ad1913": "単語のはしごを追加する、任意の買い切りアイテムです。"
+ "81e1ad1913": "単語のはしごを追加する、任意の買い切りアイテムです。",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">旅人</span><span style=\"font-size: 13px; color: var(--muted)\">レベルA1</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">商人</span><span style=\"font-size: 13px; color: var(--muted)\">レベルA2</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">隊商の一員</span><span style=\"font-size: 13px; color: var(--muted)\">レベルB1</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">通訳官</span><span style=\"font-size: 13px; color: var(--muted)\">レベルB2</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">使節</span><span style=\"font-size: 13px; color: var(--muted)\">レベルC1</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">隊商宿のあるじ</span><span style=\"font-size: 13px; color: var(--muted)\">レベルC2</span>"
 }

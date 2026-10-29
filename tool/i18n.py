@@ -35,10 +35,9 @@ VERBATIM = {'Serai', 'Daily Hunt', 'English', 'Deutsch', 'Русский', 'Fran
             'A1', 'A2', 'B1', 'B2', 'C1', 'C2', ''}
 
 
-# Unbounded and Geologica have no Chinese, Japanese or Korean glyphs. On
-# these pages the text falls back to fonts of the page's language (so Han
-# characters take that language's glyph forms); Latin letters stay in
-# Unbounded/Geologica.
+# Nunito has no Chinese, Japanese or Korean glyphs. On these pages the text
+# falls back to fonts of the page's language (so Han characters take that
+# language's glyph forms); Latin letters stay in Nunito.
 CJK = {'ja': '"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo',
        'zh': '"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei"',
        'ko': '"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic"'}
@@ -195,13 +194,8 @@ def build():
                 'pause': t('Pause animation'), 'play': t('Play animation')}
         page = page.replace('<script>\n// Game graphics in motion',
                             '<script>window.SERAI_TEXT = ' + json.dumps(text, ensure_ascii=False) + ';</script>\n<script>\n// Game graphics in motion', 1)
-        if lang in ('kk', 'mn'):
-            # Unbounded has no Kazakh or Mongolian letters (Ә Ө Ү …): headings
-            # use Geologica, like the app.
-            page = page.replace('</style>', '[style*="Unbounded"]{font-family:Geologica,system-ui,sans-serif!important}\n</style>', 1)
         if lang in CJK:
-            page = page.replace('</style>', f'[style*="Unbounded"],.hero-cleared p{{font-family:Unbounded,{CJK[lang]},sans-serif!important}}\n'
-                                f'[style*="Geologica"]{{font-family:Geologica,{CJK[lang]},system-ui,sans-serif!important}}\n</style>', 1)
+            page = page.replace('</style>', f'[style*="Nunito"],.hero-cleared p{{font-family:Nunito,{CJK[lang]},system-ui,sans-serif!important}}\n</style>', 1)
         page = re.sub(r'<!-- languages -->.*?<!-- /languages -->', switcher(lang, t('Language')), page, flags=re.S)
         out = ROOT / lang / 'index.html'
         out.parent.mkdir(exist_ok=True)

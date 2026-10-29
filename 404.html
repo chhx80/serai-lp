@@ -7,25 +7,27 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="stylesheet" href="/assets/fonts/fonts.css">
 <style>
-:root,:root[data-theme="dark"]{--ground:#0F1022;--surface:#181A33;--tile:#181A33;--line:#323663;--tile-border:#3A3F72;
---ink:#EEEFFF;--muted:#A9ACD6;--accent:#8B93FF;--on-accent:#0F1022;--on-ink:#0F1022;--link:#B9BEFF;
---kicker:#F2A55C;--blue:#8B93FF;--green:#4FD08E;--orange:#F2A55C;--pink:#F28BB6;--on-band:#0F1022;
---feature:#1E2142;--feature-border:#4A4F8E;--phone:#06071A;--glow:rgba(139,147,255,.25);--glow-strong:rgba(139,147,255,.3);color-scheme:dark}
-:root[data-theme="light"]{--ground:#EFF0FB;--surface:#FFFFFF;--tile:#FFFFFF;--line:#C9CCEA;--tile-border:#C9CCEA;
---ink:#1B1D45;--muted:#4C507A;--accent:#4338CA;--on-accent:#FFFFFF;--on-ink:#FFFFFF;--link:#4338CA;
---kicker:#9A4708;--blue:#4338CA;--green:#15803D;--orange:#B45309;--pink:#BE185D;--on-band:#FFFFFF;
---feature:#FFFFFF;--feature-border:#B4AFEA;--phone:#1B1D45;--glow:rgba(67,56,202,.16);--glow-strong:rgba(67,56,202,.22);color-scheme:light}
+:root,:root[data-theme="dark"]{--ground:#0A2A3D;--surface:#12354B;--tile:#12354B;--line:#335164;--tile-border:#466173;
+--ink:#FFFFFF;--muted:#C8DAE6;--accent:#F7C77A;--on-accent:#0A2A3D;--on-ink:#0A2A3D;--link:#F7C77A;
+--kicker:#F0913F;--blue:#8BADC3;--green:#86CFA0;--orange:#F0913F;--pink:#EE9DB6;--on-band:#0A2A3D;
+--feature:#12354B;--feature-border:#335164;--phone:#061C2A;--glow:rgba(247,199,122,.22);--glow-strong:rgba(247,199,122,.28);--grain-tint:#F2E6CC;--grain-opacity:.16;color-scheme:dark}
+:root[data-theme="light"]{--ground:#F1E3C6;--surface:#FBF3E2;--tile:#FBF3E2;--line:#DAC8A6;--tile-border:#CDB892;
+--ink:#0A2A3D;--muted:#554A37;--accent:#814301;--on-accent:#FFFFFF;--on-ink:#FFFFFF;--link:#814301;
+--kicker:#912B18;--blue:#1F5B7C;--green:#2D6B45;--orange:#814301;--pink:#8E2F62;--on-band:#FFFFFF;
+--feature:#FBF3E2;--feature-border:#DAC8A6;--phone:#0A2A3D;--glow:rgba(129,67,1,.14);--glow-strong:rgba(129,67,1,.2);--grain-tint:#3D3324;--grain-opacity:.22;color-scheme:light}
 .theme-switch{display:inline-flex;gap:2px;padding:3px;border-radius:999px;border:1px solid var(--line);background:var(--surface)}
 .theme-switch button{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:0 12px;border:0;border-radius:999px;background:transparent;color:var(--muted);font:inherit;font-size:13px;cursor:pointer}
 .theme-switch button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);font-weight:600}
 .theme-switch button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .theme-switch svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 html{background:var(--ground)}
-body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--ground);color:var(--ink);font-family:Geologica,system-ui,sans-serif;text-align:center;padding:24px;box-sizing:border-box}
-h1{font-family:Unbounded,sans-serif;font-size:32px;margin:20px 0 8px}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--ground);color:var(--ink);font-family:Nunito,system-ui,sans-serif;text-align:center;padding:24px;box-sizing:border-box}
+h1{font-family:Nunito,sans-serif;font-weight:800;font-size:32px;margin:20px 0 8px}
 p{color:var(--muted);font-size:18px}a{color:var(--link)}
+body::after{content:"";position:fixed;inset:0;z-index:100;pointer-events:none;background:var(--grain-tint);opacity:var(--grain-opacity);-webkit-mask:url(/assets/paper-grain.png) 0 0/128px 128px repeat;mask:url(/assets/paper-grain.png) 0 0/128px 128px repeat}
+@media (prefers-contrast:more){body::after{display:none}}
 </style>
-<script>(function(){var t='dark';try{t=localStorage.getItem('serai-theme')==='light'?'light':'dark'}catch(e){}document.documentElement.dataset.theme=t;var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='light'?'#EFF0FB':'#0F1022'})()</script>
+<script>(function(){var t='dark';try{t=localStorage.getItem('serai-theme')==='light'?'light':'dark'}catch(e){}document.documentElement.dataset.theme=t;var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=t==='light'?'#F1E3C6':'#0A2A3D'})()</script>
 </head>
 <body>
 <main>

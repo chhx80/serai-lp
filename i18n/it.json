@@ -30,12 +30,6 @@
  "0ef10b2d32": "Un tipico caravanserraglio visto dall’alto",
  "31be25ef95": "Da Viandante a Custode della locanda",
  "44d1a232c6": "Supera un livello e ottieni la sua medaglia, dalla tua prima locanda fino a custode del caravanserraglio. Ogni medaglia è anche un obiettivo di Game Center.",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Viandante</span><span style=\"font-size: 13px; color: var(--muted)\">Livello A1</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Mercante</span><span style=\"font-size: 13px; color: var(--muted)\">Livello A2</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Guida di carovana</span><span style=\"font-size: 13px; color: var(--muted)\">Livello B1</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Interprete</span><span style=\"font-size: 13px; color: var(--muted)\">Livello B2</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Portavoce</span><span style=\"font-size: 13px; color: var(--muted)\">Livello C1</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Custode della locanda</span><span style=\"font-size: 13px; color: var(--muted)\">Livello C2</span>",
  "ef8bf27efc": "SPEDIZIONI · ACQUISTI UNA TANTUM",
  "3e22373b8f": "Vuoi di più?",
  "77fe5817a0": "Attraverso il Taklamakan",
@@ -141,5 +135,11 @@
  "cbc26356bd": "cibo",
  "7165ac380f": "umore",
  "204db3663c": "luna",
- "81e1ad1913": "Acquisto facoltativo una tantum che aggiunge le scale di parole."
+ "81e1ad1913": "Acquisto facoltativo una tantum che aggiunge le scale di parole.",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Viandante</span><span style=\"font-size: 13px; color: var(--muted)\">Livello A1</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Mercante</span><span style=\"font-size: 13px; color: var(--muted)\">Livello A2</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Guida di carovana</span><span style=\"font-size: 13px; color: var(--muted)\">Livello B1</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Interprete</span><span style=\"font-size: 13px; color: var(--muted)\">Livello B2</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Portavoce</span><span style=\"font-size: 13px; color: var(--muted)\">Livello C1</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Custode della locanda</span><span style=\"font-size: 13px; color: var(--muted)\">Livello C2</span>"
 }

@@ -30,12 +30,6 @@
  "0ef10b2d32": "Ердийн караван-сарай, дээрээс харахад",
  "31be25ef95": "Аянчнаас Өртөөний эзэн хүртэл",
  "44d1a232c6": "Түвшин бүрийг давж, тэмдгийг нь аваарай: анхны өртөөнөөсөө эхлээд Өртөөний эзэн болох хүртэл. Тэмдэг бүр Game Center-ийн амжилт болж бас бүртгэгдэнэ.",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Аянчин</span><span style=\"font-size: 13px; color: var(--muted)\">A1 түвшин</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Худалдаачин</span><span style=\"font-size: 13px; color: var(--muted)\">A2 түвшин</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Жинчин</span><span style=\"font-size: 13px; color: var(--muted)\">B1 түвшин</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Хэлмэрч</span><span style=\"font-size: 13px; color: var(--muted)\">B2 түвшин</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Элч</span><span style=\"font-size: 13px; color: var(--muted)\">C1 түвшин</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Өртөөний эзэн</span><span style=\"font-size: 13px; color: var(--muted)\">C2 түвшин</span>",
  "ef8bf27efc": "ЭКСПЕДИЦҮҮД · НЭГ УДААГИЙН ХУДАЛДАН АВАЛТ",
  "3e22373b8f": "Илүү ихийг хүсэж байна уу?",
  "77fe5817a0": "Такламаканыг туулах",
@@ -141,5 +135,11 @@
  "7165ac380f": "сэтгэл",
  "204db3663c": "сар",
  "81e1ad1913": "Үгийн шат нэмдэг, заавал биш нэг удаагийн худалдан авалт.",
- "ba186e6c62": "BOOT, FOOT, FOOD, MOOD, MOON"
+ "ba186e6c62": "BOOT, FOOT, FOOD, MOOD, MOON",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Аянчин</span><span style=\"font-size: 13px; color: var(--muted)\">A1 түвшин</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Худалдаачин</span><span style=\"font-size: 13px; color: var(--muted)\">A2 түвшин</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Жинчин</span><span style=\"font-size: 13px; color: var(--muted)\">B1 түвшин</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Хэлмэрч</span><span style=\"font-size: 13px; color: var(--muted)\">B2 түвшин</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Элч</span><span style=\"font-size: 13px; color: var(--muted)\">C1 түвшин</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Өртөөний эзэн</span><span style=\"font-size: 13px; color: var(--muted)\">C2 түвшин</span>"
 }

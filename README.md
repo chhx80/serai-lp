@@ -9,9 +9,12 @@ served at https://getserai.app.
 | Support (FAQ, contact) | `support.html` |
 | Privacy policy | `privacy.html` (source: `docs/legal/` in the app repo) |
 
-Plain static HTML and CSS, no build step. Fonts (Unbounded, Geologica, SIL
-Open Font License) are self-hosted in `assets/fonts/`, so no request goes to
-Google. Deployed with Dokploy from this repo: the `Dockerfile` serves the
+Plain static HTML and CSS, no build step. The look is the app's Silk Road
+theme (Night by default, Day as the light theme): its colours, a paper grain
+(`assets/paper-grain.png`, the app's texture) and the landscape header
+(`assets/landscape-*.webp`). The font, Nunito (SIL Open Font License), is
+self-hosted in `assets/fonts/` (variable, one file per script), so no
+request goes to Google. Deployed with Dokploy from this repo: the `Dockerfile` serves the
 files with nginx on port 80 (`nginx.conf`: clean URLs such as `/privacy`,
 cache headers, 404 page).
 

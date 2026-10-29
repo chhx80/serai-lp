@@ -30,12 +30,6 @@
  "0ef10b2d32": "Yukarıdan görülen tipik bir kervansaray",
  "31be25ef95": "Yolcu’dan Kervansaray Sahibi’ne",
  "44d1a232c6": "Bir seviyeyi geç ve rozetini kazan: ilk kervansarayından kervansarayın sahibi olmaya kadar. Her rozet aynı zamanda bir Game Center başarısıdır.",
- "9fcf82ac0a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Yolcu</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye A1</span>",
- "d81fbc0bf0": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Tüccar</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye A2</span>",
- "f583dd9e44": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Kervancı</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye B1</span>",
- "da003ea95a": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Tercüman</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye B2</span>",
- "5e6980d9ad": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Elçi</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye C1</span>",
- "c2a8a85975": "<span style=\"display: block; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 15px\">Kervansaray Sahibi</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye C2</span>",
  "ef8bf27efc": "SEFERLER · BİR KERELİK SATIN ALMALAR",
  "3e22373b8f": "Daha fazlasına hazır mısın?",
  "77fe5817a0": "Taklamakan Geçişi",
@@ -141,5 +135,11 @@
  "cbc26356bd": "yemek",
  "7165ac380f": "keyif",
  "204db3663c": "ay",
- "81e1ad1913": "Kelime merdivenleri getiren, isteğe bağlı, bir kerelik satın alma."
+ "81e1ad1913": "Kelime merdivenleri getiren, isteğe bağlı, bir kerelik satın alma.",
+ "dd93076a77": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Yolcu</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye A1</span>",
+ "9306cb8df1": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Tüccar</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye A2</span>",
+ "e83b64c2c8": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Kervancı</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye B1</span>",
+ "5d280f5b1d": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Tercüman</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye B2</span>",
+ "959f35640e": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Elçi</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye C1</span>",
+ "7bb61daef5": "<span style=\"display: block; font-family: Nunito, sans-serif; font-weight: 800; font-size: 15px\">Kervansaray Sahibi</span><span style=\"font-size: 13px; color: var(--muted)\">Seviye C2</span>"
 }

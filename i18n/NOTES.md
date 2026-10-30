@@ -18,14 +18,19 @@ Context and terms:
 - Brand names stay English: Serai, Daily Hunt, Game Center, App Store,
   iPhone, iOS. Level codes A1–C2 stay.
 - The expeditions are named as in the app (`brand.csv`: brand.taklamakanCrossing,
-  brand.jadeGate, brand.pamirPass); their story and unlock lines are the app's own
+  brand.jadeGate, brand.pamirPass; The Mogao Cave is not in the app yet: use
+  the established name of the Mogao Caves, 莫高窟, in your language, singular,
+  as a short title); their story and unlock lines are the app's own
   (`expedition.csv`: expedition.taklamakan.*, expedition.jadeGate.*,
   expedition.pamirPass.*; "Word ladder" is the term of
   expedition.pamirPass.sample, singular).
 - "Opposite of cold" is the Jade Gate's sample clue: the app's `hunt.opposite`
   (`hunt.csv`) with {word} = cold. "cold" and the answer HOT stay English (the
   clue word is in the language being learned).
-- The Jade Gate has no price yet: never add one. The Pamir Pass costs €4.99.
+- The Jade Gate has no price yet: never add one. The Pamir Pass costs €4.99, The Mogao Cave €4.99.
+- The Mogao Cave's sample is a flashcard: the front shows the word in YOUR
+  language (`Löffel` = spoon, as on the demo board) with "Kitchen · A1"; the back
+  spells SPOON in English tiles. "Not yet" and "Knew it" are its two buttons.
 - The Pamir Pass's sample ladder is English (BOOT, FOOT, FOOD, MOOD, MOON:
   the reader learns English), so its clues `Stiefel`, `Fuß`, `Essen`,
   `Laune`, `Mond` become the words for boot, foot, food, mood (state of

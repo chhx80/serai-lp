@@ -158,7 +158,7 @@ def common(page, lang, label):
     page = re.sub(r'<!-- hreflang -->.*?<!-- /hreflang -->\n?', '', page, flags=re.S)
     page = page.replace(f'<link rel="canonical" href="{SITE}/">', f'<link rel="canonical" href="{url(lang)}">')
     page = re.sub(r'(<link rel="canonical" href="[^"]*">)', lambda m: m.group(1) + '\n' + alternates(), page, count=1)
-    page = re.sub(r'<!-- languages -->.*?<!-- /languages -->', '', page, flags=re.S)
+    page = re.sub(r'<!-- languages -->.*?<!-- /languages -->\n?', '', page, flags=re.S)
     return page.replace('</footer>', switcher(lang, label) + '\n</footer>', 1)
 
 

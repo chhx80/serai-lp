@@ -27,7 +27,11 @@ the app's App Store link.
 - Structured data (JSON-LD): `WebSite`, `Person` (publisher), `MobileApplication`
   with offers, and `FAQPage` on the landing and support pages. The FAQ
   answers in the JSON-LD must match the visible text.
-- `assets/og-image.png` (1200×630) is the share image; `llms.txt` describes
+- `assets/og-image-silk.png` (1200×630) is the share image (Open Graph and
+  Twitter card), in the Silk Road Day design. It is generated from
+  `tool/og_image.html` by `tool/og_image.py` (Playwright + Chromium; Pillow
+  quantizes it). Assets are cached as immutable, so a new version needs a new
+  file name and updated `og:image` / JSON-LD references. `llms.txt` describes
   the app for AI answer engines; `sitemap.xml` and `robots.txt` allow all
   crawlers.
 - At launch: add `<meta name="apple-itunes-app" content="app-id=…">` and the

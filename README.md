@@ -7,7 +7,7 @@ served at https://getserai.app.
 | --- | --- |
 | Landing page | `index.html` |
 | Support (FAQ, contact) | `support.html` |
-| Privacy policy | `privacy.html` (source: `docs/legal/` in the app repo) |
+| Privacy policy | `privacy.html`, built from `docs/legal/privacy-policy.md` in the app repo with `python3 tool/privacy.py` |
 
 Plain static HTML and CSS, no build step. The look is the app's Silk Road
 theme (Night by default, Day as the light theme): its colours, a paper grain

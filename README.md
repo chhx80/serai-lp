@@ -27,7 +27,7 @@ the app's App Store link.
 - Structured data (JSON-LD): `WebSite`, `Person` (publisher), `MobileApplication`
   with offers, and `FAQPage` on the landing and support pages. The FAQ
   answers in the JSON-LD must match the visible text.
-- `assets/og-image-silk-17.png` (1200×630) is the share image (Open Graph and
+- `assets/og-image-silk-18.png` (1200×630) is the share image (Open Graph and
   Twitter card), in the Silk Road Day design. It is generated from
   `tool/og_image.html` by `tool/og_image.py` (Playwright + Chromium; Pillow
   quantizes it). Assets are cached as immutable, so a new version needs a new
@@ -40,7 +40,7 @@ the app's App Store link.
 
 ## Languages
 
-`index.html` is the English source. The other sixteen pages (`/de/`, `/ru/`, …)
+`index.html` is the English source. The other seventeen pages (`/de/`, `/ru/`, …)
 are generated from it:
 
 ```

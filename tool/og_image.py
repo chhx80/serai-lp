@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render the share image (Open Graph / Twitter card) from tool/og_image.html.
 
-    python3 tool/og_image.py [out.png]      # default: assets/og-image-silk.png
+    python3 tool/og_image.py assets/og-image-<new name>.png
 
 Needs Playwright with Chromium (pip install playwright && playwright install chromium);
 Pillow, if installed, quantizes the PNG to keep it small. The repo root is served over
@@ -14,7 +14,11 @@ import functools, http.server, io, pathlib, sys, threading
 from playwright.sync_api import sync_playwright
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-OUT = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / 'assets' / 'og-image-silk.png'
+if len(sys.argv) != 2:
+    sys.exit('usage: python3 tool/og_image.py assets/og-image-<new name>.png (a new name: assets are cached for 30 days)')
+OUT = pathlib.Path(sys.argv[1])
+if OUT.exists():
+    sys.exit(f'{OUT} exists: pick a new name (assets are cached as immutable for 30 days)')
 
 
 class Quiet(http.server.SimpleHTTPRequestHandler):

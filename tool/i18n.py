@@ -16,13 +16,13 @@ import hashlib, html, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-LANGS = ['en', 'de', 'ru', 'fr', 'kk', 'cs', 'es', 'zh', 'ko', 'it', 'mn', 'tr', 'ja', 'pt', 'uk', 'pl', 'vi', 'uz']
+LANGS = ['en', 'de', 'ru', 'fr', 'kk', 'cs', 'es', 'zh', 'ko', 'it', 'mn', 'tr', 'ja', 'pt', 'uk', 'pl', 'vi', 'uz', 'ar']
 NATIVE = {'en': 'English', 'de': 'Deutsch', 'ru': 'Русский', 'fr': 'Français', 'kk': 'Қазақша',
           'cs': 'Čeština', 'es': 'Español', 'zh': '中文', 'ko': '한국어', 'it': 'Italiano', 'mn': 'Монгол', 'tr': 'Türkçe',
-          'ja': '日本語', 'pt': 'Português', 'uk': 'Українська', 'pl': 'Polski', 'vi': 'Tiếng Việt', 'uz': 'Oʻzbekcha'}
+          'ja': '日本語', 'pt': 'Português', 'uk': 'Українська', 'pl': 'Polski', 'vi': 'Tiếng Việt', 'uz': 'Oʻzbekcha', 'ar': 'العربية'}
 HREFLANG = {'zh': 'zh-Hans', 'pt': 'pt-BR'}
 OG_LOCALE = {'en': 'en_US', 'de': 'de_DE', 'ru': 'ru_RU', 'fr': 'fr_FR', 'kk': 'kk_KZ', 'cs': 'cs_CZ',
-             'es': 'es_ES', 'zh': 'zh_CN', 'ko': 'ko_KR', 'it': 'it_IT', 'mn': 'mn_MN', 'tr': 'tr_TR', 'ja': 'ja_JP', 'pt': 'pt_BR', 'uk': 'uk_UA', 'pl': 'pl_PL', 'vi': 'vi_VN', 'uz': 'uz_UZ'}
+             'es': 'es_ES', 'zh': 'zh_CN', 'ko': 'ko_KR', 'it': 'it_IT', 'mn': 'mn_MN', 'tr': 'tr_TR', 'ja': 'ja_JP', 'pt': 'pt_BR', 'uk': 'uk_UA', 'pl': 'pl_PL', 'vi': 'vi_VN', 'uz': 'uz_UZ', 'ar': 'ar_AR'}
 BLOCK = re.compile(r'(<(p|h1|h2|h3|dt|dd|figcaption|title)(?:\s[^>]*)?>)(.*?)(</\2>)', re.S)
 ATTR = re.compile(r'\b(alt|aria-label)="([^"]*)"')
 META = re.compile(r'(<meta (?:name="description"|property="og:(?:title|description|image:alt)") content=")([^"]*)(")')
@@ -30,19 +30,25 @@ LOOSE = re.compile(r'>([^<>]*[^\s<>][^<>]*)<')
 KEEP = re.compile(r'^[\s\W\d]*$|^[A-ZÀ-ÿ]$')  # punctuation, numbers, single letters (board cells)
 # Names that stay as they are on every page.
 VERBATIM = {'Serai', 'Daily Hunt', 'English', 'Deutsch', 'Русский', 'Français',
-            'Қазақша', 'Čeština', 'Español', '中文', '한국어', 'Italiano', 'Монгол', 'Türkçe', '日本語', 'Português', 'Українська', 'Polski', 'Tiếng Việt', 'Oʻzbekcha', 'chris@getserai.app',
+            'Қазақша', 'Čeština', 'Español', '中文', '한국어', 'Italiano', 'Монгол', 'Türkçe', '日本語', 'Português', 'Українська', 'Polski', 'Tiếng Việt', 'Oʻzbekcha', 'العربية', 'chris@getserai.app',
             '© 2026 Christian Heuer', 'kārvān', 'sarāy', 'caravanserai',
             'A1', 'A2', 'B1', 'B2', 'C1', 'C2', '',
             # The Singing Sands' sample phrase (English: the reader learns English).
             'How much is a', 'ticket', 'Ten', 'Twenty'}
 
 
-# Nunito has no Chinese, Japanese or Korean glyphs. On these pages the text
-# falls back to fonts of the page's language (so Han characters take that
+# Nunito has no Chinese, Japanese, Korean or Arabic glyphs. On these pages the
+# text falls back to fonts of the page's language (so Han characters take that
 # language's glyph forms); Latin letters stay in Nunito.
-CJK = {'ja': '"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo',
+CJK = {'ar': '"SF Arabic","Geeza Pro","Noto Sans Arabic","Segoe UI",Tahoma',
+       'ja': '"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo',
        'zh': '"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei"',
        'ko': '"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic"'}
+
+
+# Written right to left: the page gets dir="rtl" and the CSS's [dir="rtl"]
+# rules; boards and English samples keep dir="ltr" in the markup.
+RTL = {'ar'}
 
 
 # The animation's texts: the clue words (the board's answers SPOON, BREAD,
@@ -149,6 +155,7 @@ def switcher(lang, label):
     links = ''.join(
         f'<a href="{"/" if l == "en" else f"/{l}/"}" lang="{HREFLANG.get(l, l)}" hreflang="{HREFLANG.get(l, l)}"'
         + (' aria-current="page" style="color: var(--ink); font-weight: 600"' if l == lang else '')
+        + (' dir="rtl"' if l in RTL else '')
         + f'>{NATIVE[l]}</a>'
         for l in LANGS)
     return (f'<!-- languages --><nav aria-label="{html.escape(label)}" style="flex-basis: 100%; display: flex; '
@@ -182,7 +189,7 @@ def build():
             continue
         t = lambda text: tr.get(uid(text), text)
         page = units(src, t)
-        page = page.replace('<html lang="en">', f'<html lang="{HREFLANG.get(lang, lang)}">', 1)
+        page = page.replace('<html lang="en">', f'<html lang="{HREFLANG.get(lang, lang)}"' + (' dir="rtl"' if lang in RTL else '') + '>', 1)
         # Each page is its own canonical (the English source points to /).
         page = page.replace(f'<link rel="canonical" href="{SITE}/">', f'<link rel="canonical" href="{url(lang)}">', 1)
         page = page.replace(f'<meta property="og:url" content="{SITE}/">', f'<meta property="og:url" content="{url(lang)}">')
@@ -197,7 +204,7 @@ def build():
         page = page.replace('<script>\n// Game graphics in motion',
                             '<script>window.SERAI_TEXT = ' + json.dumps(text, ensure_ascii=False) + ';</script>\n<script>\n// Game graphics in motion', 1)
         if lang in CJK:
-            page = page.replace('</style>', f'[style*="Nunito"],.hero-cleared p{{font-family:Nunito,{CJK[lang]},system-ui,sans-serif!important}}\n</style>', 1)
+            page = page.replace('</style>', f'[style*="Nunito"],.hero-cleared p,.fc-word{{font-family:Nunito,{CJK[lang]},system-ui,sans-serif!important}}\n</style>', 1)
         page = re.sub(r'<!-- languages -->.*?<!-- /languages -->', switcher(lang, t('Language')), page, flags=re.S)
         out = ROOT / lang / 'index.html'
         out.parent.mkdir(exist_ok=True)

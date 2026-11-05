@@ -58,3 +58,8 @@ Context and terms:
 - "Language" labels the list of the page's languages.
 - Keep it natural for your market; no superlatives. Russia: the purchase
   cannot be bought there, but the text stays as is.
+- Right-to-left languages (Arabic): the page gets `dir="rtl"` from
+  `tool/i18n.py` (`RTL`) and mirrors through logical CSS and `[dir="rtl"]`
+  rules. In the word-origin unit the arrow points the reading direction
+  (`←`); English words and board letters stay as they are (their elements
+  carry `dir="ltr"`).

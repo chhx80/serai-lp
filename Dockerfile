@@ -21,4 +21,5 @@ COPY uk /usr/share/nginx/html/uk
 COPY pl /usr/share/nginx/html/pl
 COPY vi /usr/share/nginx/html/vi
 COPY uz /usr/share/nginx/html/uz
+COPY ar /usr/share/nginx/html/ar
 EXPOSE 80

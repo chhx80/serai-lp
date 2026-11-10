@@ -26,8 +26,8 @@ Context and terms:
 - "Opposite of cold" is the Jade Gate's sample clue: the app's `hunt.opposite`
   (`hunt.csv`) with {word} = cold. "cold" and the answer HOT stay English (the
   clue word is in the language being learned).
-- The Jade Gate and The Singing Sands have no price yet: never add one. The
-  Pamir Pass costs €4.99, The Mogao Cave €4.99.
+- No prices on the site (decision 2026-11-10): the App Store shows each
+  country's price; never add one, in any language or in the JSON-LD.
 - The Singing Sands' sample is the app's phrase "How much is a ticket?"
   (`content/phrases/phrases_en.csv`, id trans_how_much_ticket): it stays
   English (the reader learns English), and "Was kostet eine Fahrkarte?" becomes

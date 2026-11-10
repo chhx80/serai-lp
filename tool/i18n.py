@@ -40,6 +40,11 @@ VERBATIM = {'Serai', 'Daily Hunt', 'English', 'Deutsch', 'Русский', 'Fran
 # Nunito has no Chinese, Japanese, Korean or Arabic glyphs. On these pages the
 # text falls back to fonts of the page's language (so Han characters take that
 # language's glyph forms); Latin letters stay in Nunito.
+# Apple's official "Download on the App Store" badge in the page's language
+# (assets/app-store-badge-<lang>.svg, from Apple's marketing tools; never
+# edited). Apple has none for Kazakh, Mongolian, Uzbek and Arabic: those
+# pages keep the English badge, as Apple's guidelines ask.
+APP_STORE_BADGES = {'de', 'ru', 'fr', 'cs', 'es', 'zh', 'ko', 'it', 'tr', 'ja', 'pt', 'uk', 'pl', 'vi'}
 CJK = {'ar': '"SF Arabic","Geeza Pro","Noto Sans Arabic","Segoe UI",Tahoma',
        'ja': '"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo',
        'zh': '"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei"',
@@ -203,6 +208,8 @@ def build():
                 'pause': t('Pause animation'), 'play': t('Play animation')}
         page = page.replace('<script>\n// Game graphics in motion',
                             '<script>window.SERAI_TEXT = ' + json.dumps(text, ensure_ascii=False) + ';</script>\n<script>\n// Game graphics in motion', 1)
+        if lang in APP_STORE_BADGES:
+            page = page.replace('/assets/app-store-badge-en.svg', f'/assets/app-store-badge-{lang}.svg')
         if lang in CJK:
             page = page.replace('</style>', f'[style*="Nunito"],.hero-cleared p,.fc-word{{font-family:Nunito,{CJK[lang]},system-ui,sans-serif!important}}\n</style>', 1)
         page = re.sub(r'<!-- languages -->.*?<!-- /languages -->', switcher(lang, t('Language')), page, flags=re.S)

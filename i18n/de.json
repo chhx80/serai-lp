@@ -47,12 +47,10 @@
  "925b83cc8a": "Brauche ich ein Konto oder eine Internetverbindung?",
  "50fa2fbd3f": "Nein. Serai funktioniert ohne Konto und offline. Dein Fortschritt wird nur auf deinem iPhone gespeichert; die App erhebt keine personenbezogenen Daten und verfolgt dich nicht.",
  "6f7a5d1e99": "Auf welchen Geräten läuft Serai?",
- "08126f363a": "Serai ist für das iPhone gemacht und erfordert iOS 15 oder neuer. Es erscheint bald im App Store.",
  "f7b63c1451": "Deine Karawane wartet",
  "66cbb3066f": "Vokabeln lernen mit einem Wortsuchspiel: Lies ein Wort in deiner Sprache und wische seine Übersetzung durch ein Feld aus Buchstaben. Rund 8.000 Wörter, 19 Sprachen, A1 bis C2. Kostenlos für iPhone.",
  "8d741211bd": "Serai: ein Buchstabenfeld, in dem die Wörter SPOON, BREAD und CUP nachgezogen sind",
  "62bce9422f": "Hauptmenü",
- "f5ed3039a2": "Bald im App Store",
  "4087963269": "5 Buchstaben",
  "e26c971d12": "Wortherkunft",
  "6dc515d82a": "Der Weg in Serai, Level für Level",
@@ -74,8 +72,6 @@
  "e40c092585": "Reise",
  "03688ba6aa": "FAQ",
  "f32d5a3b17": "Support",
- "ac1ff17cb2": "Bald im",
- "c3e0734239": "App Store",
  "5491e92cc1": "Kostenlos · iPhone · 19 Sprachen",
  "6aceb2319e": "Daily Hunt · Küche",
  "0f09796bf7": "2/4 gefunden",
@@ -165,5 +161,7 @@
  "6adce8e803": "Beispielsatz",
  "2087f6bd24": "Unterwegs · A1",
  "6816bceda3": "Was kostet eine Fahrkarte?",
- "bb31b076f5": "Mögliche Antworten"
+ "bb31b076f5": "Mögliche Antworten",
+ "fe5b8e390c": "Serai ist für das iPhone gemacht und erfordert iOS 15 oder neuer. Lade es kostenlos im App Store.",
+ "a9096aaab4": "Laden im App Store"
 }

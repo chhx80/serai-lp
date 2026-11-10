@@ -47,12 +47,10 @@
  "925b83cc8a": "Czy potrzebuję konta albo internetu?",
  "50fa2fbd3f": "Nie. Serai działa bez konta i offline. Twoje postępy są zapisane tylko na twoim iPhonie; aplikacja nie zbiera danych osobowych i cię nie śledzi.",
  "6f7a5d1e99": "Na jakich urządzeniach działa Serai?",
- "08126f363a": "Serai jest stworzone na iPhone’a i wymaga iOS 15 lub nowszego. Już wkrótce w App Store.",
  "f7b63c1451": "Twoja karawana czeka",
  "66cbb3066f": "Ucz się słówek w grze w wykreślanki: przeczytaj słowo w swoim języku i przesuń palcem po jego tłumaczeniu na planszy z liter. Około 8000 słów, 19 języków, od A1 do C2. Za darmo na iPhone’a.",
  "8d741211bd": "Serai: plansza z liter z zaznaczonymi słowami SPOON, BREAD i CUP",
  "62bce9422f": "Główna",
- "f5ed3039a2": "Wkrótce w App Store",
  "4087963269": "5 liter",
  "e26c971d12": "Pochodzenie słowa",
  "6dc515d82a": "Droga w Serai, poziom po poziomie",
@@ -75,8 +73,6 @@
  "84ce31606a": "Wyprawy",
  "03688ba6aa": "FAQ",
  "f32d5a3b17": "Pomoc",
- "ac1ff17cb2": "Wkrótce w",
- "c3e0734239": "App Store",
  "5491e92cc1": "Za darmo · iPhone · 19 języków",
  "6aceb2319e": "Daily Hunt · Kuchnia",
  "0f09796bf7": "2/4 trafione",
@@ -165,5 +161,7 @@
  "6adce8e803": "Przykładowy zwrot",
  "2087f6bd24": "W podróży · A1",
  "6816bceda3": "Ile kosztuje bilet?",
- "bb31b076f5": "Możliwe odpowiedzi"
+ "bb31b076f5": "Możliwe odpowiedzi",
+ "fe5b8e390c": "Serai jest stworzone na iPhone’a i wymaga iOS 15 lub nowszego. Pobierz za darmo z App Store.",
+ "a9096aaab4": "Pobierz z App Store"
 }

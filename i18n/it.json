@@ -47,12 +47,10 @@
  "925b83cc8a": "Mi servono un account o una connessione a internet?",
  "50fa2fbd3f": "No. Serai funziona senza account e offline. I tuoi progressi sono salvati solo sul tuo iPhone; l’app non raccoglie dati personali e non ti traccia.",
  "6f7a5d1e99": "Su quali dispositivi funziona Serai?",
- "08126f363a": "Serai è pensato per iPhone e richiede iOS 15 o versioni successive. Arriverà presto su App Store.",
  "f7b63c1451": "La tua carovana ti aspetta",
  "66cbb3066f": "Impara i vocaboli con un crucipuzzle: leggi una parola nella tua lingua e fai scorrere il dito sulla sua traduzione in una griglia di lettere. Circa 8.000 parole, 19 lingue, da A1 a C2. Gratis per iPhone.",
  "8d741211bd": "Serai: una griglia di lettere con le parole SPOON, BREAD e CUP tracciate",
  "62bce9422f": "Principale",
- "f5ed3039a2": "Prossimamente su App Store",
  "4087963269": "5 lettere",
  "e26c971d12": "Origine della parola",
  "6dc515d82a": "Il percorso in Serai, livello per livello",
@@ -74,8 +72,6 @@
  "e40c092585": "Percorso",
  "03688ba6aa": "FAQ",
  "f32d5a3b17": "Supporto",
- "ac1ff17cb2": "Prossimamente su",
- "c3e0734239": "App Store",
  "5491e92cc1": "Gratis · iPhone · 19 lingue",
  "6aceb2319e": "Daily Hunt · Cucina",
  "0f09796bf7": "2/4 trovate",
@@ -165,5 +161,7 @@
  "6adce8e803": "Frase d’esempio",
  "2087f6bd24": "Spostarsi · A1",
  "6816bceda3": "Quanto costa un biglietto?",
- "bb31b076f5": "Risposte possibili"
+ "bb31b076f5": "Risposte possibili",
+ "fe5b8e390c": "Serai è pensato per iPhone e richiede iOS 15 o versioni successive. Scaricalo gratis su App Store.",
+ "a9096aaab4": "Scarica su App Store"
 }

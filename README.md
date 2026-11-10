@@ -18,9 +18,14 @@ request goes to Google. Deployed with Dokploy from this repo: the `Dockerfile` s
 files with nginx on port 80 (`nginx.conf`: clean URLs such as `/privacy`,
 cache headers, 404 page).
 
-To do before launch: replace the "Coming soon" App Store button in
-`index.html` with Apple's official "Download on the App Store" badge and
-the app's App Store link.
+App Store: the app is live (id 6820029405). Both download buttons are
+Apple's official "Download on the App Store" badge, linked to
+https://apps.apple.com/app/id6820029405 (the visitor's own storefront):
+`assets/app-store-badge-<lang>.svg` from Apple's marketing tools, never
+edited; `tool/i18n.py` puts each page's badge in (`APP_STORE_BADGES`);
+Kazakh, Mongolian, Uzbek and Arabic have none from Apple and keep the
+English one. The Smart App Banner (`apple-itunes-app`) is on the landing
+and support pages.
 
 ## Search and answer engines
 
@@ -34,9 +39,9 @@ the app's App Store link.
   file name and updated `og:image` / JSON-LD references. `llms.txt` describes
   the app for AI answer engines; `sitemap.xml` and `robots.txt` allow all
   crawlers.
-- At launch: add `<meta name="apple-itunes-app" content="app-id=…">` and the
-  App Store link, replace the Coming soon button with Apple's official badge,
-  and register the site in Google Search Console and Bing Webmaster Tools.
+- `MobileApplication` carries the App Store link as `downloadUrl` and
+  `installUrl`. Still to do: register the site in Google Search Console and
+  Bing Webmaster Tools.
 
 ## Languages
 

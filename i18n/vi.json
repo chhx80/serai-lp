@@ -57,12 +57,10 @@
  "925b83cc8a": "Tôi có cần tài khoản hoặc kết nối internet không?",
  "50fa2fbd3f": "Không. Serai hoạt động không cần tài khoản và không cần mạng. Tiến trình của bạn chỉ được lưu trên iPhone của bạn; ứng dụng không thu thập dữ liệu cá nhân và không theo dõi bạn.",
  "6f7a5d1e99": "Serai chạy trên những thiết bị nào?",
- "08126f363a": "Serai được làm cho iPhone và yêu cầu iOS 15 trở lên. Ứng dụng sắp ra mắt trên App Store.",
  "f7b63c1451": "Đoàn lữ hành của bạn đang chờ",
  "66cbb3066f": "Học từ vựng bằng trò chơi tìm chữ: đọc một từ bằng ngôn ngữ của bạn và vuốt qua bản dịch của nó trên một bảng chữ cái. Khoảng 8.000 từ, 19 ngôn ngữ, từ A1 đến C2. Miễn phí cho iPhone.",
  "8d741211bd": "Serai: một bảng chữ cái với các từ SPOON, BREAD và CUP đã được vuốt qua",
  "62bce9422f": "Chính",
- "f5ed3039a2": "Sắp ra mắt trên App Store",
  "4087963269": "5 chữ cái",
  "e26c971d12": "Nguồn gốc của từ",
  "6dc515d82a": "Con đường trong Serai, qua từng trình độ",
@@ -89,8 +87,6 @@
  "84ce31606a": "Thám hiểm",
  "03688ba6aa": "Hỏi đáp",
  "f32d5a3b17": "Hỗ trợ",
- "ac1ff17cb2": "Sắp ra mắt trên",
- "c3e0734239": "App Store",
  "5491e92cc1": "Miễn phí · iPhone · 19 ngôn ngữ",
  "6aceb2319e": "Daily Hunt · Nhà bếp",
  "0f09796bf7": "2/4 đã tìm",
@@ -165,5 +161,7 @@
  "6adce8e803": "Câu ví dụ",
  "2087f6bd24": "Đi lại · A1",
  "6816bceda3": "Vé bao nhiêu tiền?",
- "bb31b076f5": "Câu trả lời bạn có thể nghe"
+ "bb31b076f5": "Câu trả lời bạn có thể nghe",
+ "fe5b8e390c": "Serai được làm cho iPhone và yêu cầu iOS 15 trở lên. Tải miễn phí trên App Store.",
+ "a9096aaab4": "Tải về trên App Store"
 }

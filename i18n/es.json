@@ -47,12 +47,10 @@
  "925b83cc8a": "¿Necesito una cuenta o conexión a internet?",
  "50fa2fbd3f": "No. Serai funciona sin cuenta y sin conexión. Tu progreso se guarda solo en tu iPhone; la app no recopila datos personales ni hace seguimiento.",
  "6f7a5d1e99": "¿En qué dispositivos funciona Serai?",
- "08126f363a": "Serai está hecho para iPhone y requiere iOS 15 o posterior. Llegará pronto al App Store.",
  "f7b63c1451": "Tu caravana te espera",
  "66cbb3066f": "Aprende vocabulario con una sopa de letras: lee una palabra en tu idioma y desliza el dedo por su traducción en un tablero de letras. Unas 8000 palabras, 19 idiomas, de A1 a C2. Gratis para iPhone.",
  "8d741211bd": "Serai: un tablero de letras con las palabras SPOON, BREAD y CUP marcadas",
  "62bce9422f": "Principal",
- "f5ed3039a2": "Próximamente en el App Store",
  "4087963269": "5 letras",
  "e26c971d12": "Origen de la palabra",
  "6dc515d82a": "El camino en Serai, nivel a nivel",
@@ -74,8 +72,6 @@
  "e40c092585": "El camino",
  "03688ba6aa": "Preguntas",
  "f32d5a3b17": "Soporte",
- "ac1ff17cb2": "Próximamente en el",
- "c3e0734239": "App Store",
  "5491e92cc1": "Gratis · iPhone · 19 idiomas",
  "6aceb2319e": "Daily Hunt · Cocina",
  "0f09796bf7": "2/4 encontradas",
@@ -165,5 +161,7 @@
  "6adce8e803": "Frase de ejemplo",
  "2087f6bd24": "Transporte · A1",
  "6816bceda3": "¿Cuánto cuesta el billete?",
- "bb31b076f5": "Respuestas que puedes oír"
+ "bb31b076f5": "Respuestas que puedes oír",
+ "fe5b8e390c": "Serai está hecho para iPhone y requiere iOS 15 o posterior. Descárgalo gratis en el App Store.",
+ "a9096aaab4": "Descárgalo en el App Store"
 }

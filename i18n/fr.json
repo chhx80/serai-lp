@@ -47,12 +47,10 @@
  "925b83cc8a": "Ai-je besoin d’un compte ou d’une connexion Internet ?",
  "50fa2fbd3f": "Non. Serai fonctionne sans compte et hors ligne. Ta progression est enregistrée uniquement sur ton iPhone ; l’app ne collecte aucune donnée personnelle et ne te suit pas.",
  "6f7a5d1e99": "Sur quels appareils Serai fonctionne-t-il ?",
- "08126f363a": "Serai est conçu pour iPhone et nécessite iOS 15 ou version ultérieure. Il sera bientôt disponible sur l’App Store.",
  "f7b63c1451": "Ta caravane t’attend",
  "66cbb3066f": "Apprends du vocabulaire avec un jeu de mots mêlés : lis un mot dans ta langue et trace sa traduction du doigt dans une grille de lettres. Environ 8 000 mots, 19 langues, de A1 à C2. Gratuit sur iPhone.",
  "8d741211bd": "Serai : une grille de lettres où les mots SPOON, BREAD et CUP sont tracés",
  "62bce9422f": "Principale",
- "f5ed3039a2": "Bientôt disponible dans l’App Store",
  "4087963269": "5 lettres",
  "e26c971d12": "Origine du mot",
  "6dc515d82a": "La route dans Serai, niveau par niveau",
@@ -74,8 +72,6 @@
  "e40c092585": "Parcours",
  "03688ba6aa": "FAQ",
  "f32d5a3b17": "Assistance",
- "ac1ff17cb2": "Bientôt disponible dans l’",
- "c3e0734239": "App Store",
  "5491e92cc1": "Gratuit · iPhone · 19 langues",
  "6aceb2319e": "Daily Hunt · Cuisine",
  "0f09796bf7": "2/4 trouvés",
@@ -165,5 +161,7 @@
  "6adce8e803": "Exemple de phrase",
  "2087f6bd24": "Se déplacer · A1",
  "6816bceda3": "Combien coûte un billet ?",
- "bb31b076f5": "Réponses possibles"
+ "bb31b076f5": "Réponses possibles",
+ "fe5b8e390c": "Serai est conçu pour iPhone et nécessite iOS 15 ou version ultérieure. Téléchargez-le gratuitement sur l’App Store.",
+ "a9096aaab4": "Télécharger dans l’App Store"
 }

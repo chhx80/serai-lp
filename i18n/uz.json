@@ -57,12 +57,10 @@
  "925b83cc8a": "Hisob yoki internet aloqasi kerakmi?",
  "50fa2fbd3f": "Yoʻq. Serai hisobsiz va oflayn ishlaydi. Natijalaringiz faqat iPhone qurilmangizda saqlanadi; ilova shaxsiy maʼlumotlarni yigʻmaydi va sizni kuzatmaydi.",
  "6f7a5d1e99": "Serai qaysi qurilmalarda ishlaydi?",
- "08126f363a": "Serai iPhone uchun yaratilgan va iOS 15 yoki undan yangi versiyani talab qiladi. Tez kunda App Store-da paydo boʻladi.",
  "f7b63c1451": "Karvoningiz sizni kutmoqda",
  "66cbb3066f": "Soʻz qidirish oʻyini bilan soʻz boyligingizni oshiring: oʻz tilingizdagi soʻzni oʻqing va uning tarjimasini harflar maydonida barmogʻingiz bilan chizing. Qariyb 8 000 ta soʻz, 19 til, A1–C2. iPhone uchun bepul.",
  "8d741211bd": "Serai: SPOON, BREAD va CUP soʻzlari chizib topilgan harflar maydoni",
  "62bce9422f": "Asosiy",
- "f5ed3039a2": "Tez kunda App Store-da",
  "4087963269": "5 ta harf",
  "e26c971d12": "Soʻzning kelib chiqishi",
  "6dc515d82a": "Serai yoʻli, darajama-daraja",
@@ -89,8 +87,6 @@
  "84ce31606a": "Ekspeditsiyalar",
  "03688ba6aa": "Savol-javob",
  "f32d5a3b17": "Yordam",
- "ac1ff17cb2": "Tez kunda",
- "c3e0734239": "App Store-da",
  "5491e92cc1": "Bepul · iPhone · 19 til",
  "6aceb2319e": "Daily Hunt · Oshxona",
  "0f09796bf7": "2/4 topildi",
@@ -165,5 +161,7 @@
  "6adce8e803": "Ibora namunasi",
  "2087f6bd24": "Yoʻlda · A1",
  "6816bceda3": "Chipta qancha turadi?",
- "bb31b076f5": "Ehtimoliy javoblar"
+ "bb31b076f5": "Ehtimoliy javoblar",
+ "fe5b8e390c": "Serai iPhone uchun yaratilgan va iOS 15 yoki undan yangi versiyani talab qiladi. App Store-dan bepul yuklab oling.",
+ "a9096aaab4": "Download on the App Store"
 }

@@ -47,12 +47,10 @@
  "925b83cc8a": "Hesaba ya da internet bağlantısına ihtiyacım var mı?",
  "50fa2fbd3f": "Hayır. Serai hesap olmadan ve çevrimdışı çalışır. İlerlemen yalnızca iPhone’unda saklanır; uygulama kişisel veri toplamaz ve seni takip etmez.",
  "6f7a5d1e99": "Serai hangi cihazlarda çalışır?",
- "08126f363a": "Serai iPhone için yapıldı ve iOS 15 veya üstünü gerektirir. Çok yakında App Store’da.",
  "f7b63c1451": "Kervanın seni bekliyor",
  "66cbb3066f": "Kelime avı oyunuyla kelime öğren: kendi dilinde bir kelime oku ve çevirisini harflerle dolu bir bulmacada parmağınla çiz. Yaklaşık 8.000 kelime, 19 dil, A1’den C2’ye. iPhone için ücretsiz.",
  "8d741211bd": "Serai: SPOON, BREAD ve CUP kelimelerinin çizildiği bir harf bulmacası",
  "62bce9422f": "Ana menü",
- "f5ed3039a2": "Çok yakında App Store’da",
  "4087963269": "5 harf",
  "e26c971d12": "Kelimenin kökeni",
  "6dc515d82a": "Serai’de yol, seviye seviye",
@@ -74,8 +72,6 @@
  "e40c092585": "Yolculuk",
  "03688ba6aa": "SSS",
  "f32d5a3b17": "Destek",
- "ac1ff17cb2": "Çok yakında",
- "c3e0734239": "App Store’da",
  "5491e92cc1": "Ücretsiz · iPhone · 19 dil",
  "6aceb2319e": "Daily Hunt · Mutfak",
  "0f09796bf7": "2/4 bulundu",
@@ -165,5 +161,7 @@
  "6adce8e803": "Örnek ifade",
  "2087f6bd24": "Ulaşım · A1",
  "6816bceda3": "Bilet ne kadar?",
- "bb31b076f5": "Duyabileceğin cevaplar"
+ "bb31b076f5": "Duyabileceğin cevaplar",
+ "fe5b8e390c": "Serai iPhone için yapıldı ve iOS 15 veya üstünü gerektirir. App Store’dan ücretsiz indir.",
+ "a9096aaab4": "App Store’dan İndirin"
 }

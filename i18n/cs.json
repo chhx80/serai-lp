@@ -47,12 +47,10 @@
  "925b83cc8a": "Potřebuju účet nebo připojení k internetu?",
  "50fa2fbd3f": "Ne. Serai funguje bez účtu i offline. Tvůj postup se ukládá jen v iPhonu; aplikace nesbírá osobní údaje a nesleduje tě.",
  "6f7a5d1e99": "Na jakých zařízeních Serai funguje?",
- "08126f363a": "Serai je pro iPhone a vyžaduje iOS 15 nebo novější. Brzy bude k dispozici v App Store.",
  "f7b63c1451": "Tvoje karavana čeká",
  "66cbb3066f": "Uč se slovíčka hrou na hledání slov: přečti si slovo ve svém jazyce a přejeď prstem po jeho překladu v mřížce písmen. Zhruba 8 000 slov, 19 jazyků, A1 až C2. Zdarma pro iPhone.",
  "8d741211bd": "Serai: mřížka písmen s vyznačenými slovy SPOON, BREAD a CUP",
  "62bce9422f": "Hlavní",
- "f5ed3039a2": "Již brzy v App Store",
  "4087963269": "5 písmen",
  "e26c971d12": "Původ slova",
  "6dc515d82a": "Cesta v Serai, úroveň po úrovni",
@@ -74,8 +72,6 @@
  "e40c092585": "Cesta",
  "03688ba6aa": "Časté dotazy",
  "f32d5a3b17": "Podpora",
- "ac1ff17cb2": "Již brzy v",
- "c3e0734239": "App Store",
  "5491e92cc1": "Zdarma · iPhone · 19 jazyků",
  "6aceb2319e": "Daily Hunt · Kuchyně",
  "0f09796bf7": "2/4 nalezeno",
@@ -165,5 +161,7 @@
  "6adce8e803": "Ukázková fráze",
  "2087f6bd24": "Doprava · A1",
  "6816bceda3": "Kolik stojí jízdenka?",
- "bb31b076f5": "Možné odpovědi"
+ "bb31b076f5": "Možné odpovědi",
+ "fe5b8e390c": "Serai je pro iPhone a vyžaduje iOS 15 nebo novější. Stáhněte si ho zdarma v App Store.",
+ "a9096aaab4": "Stáhnout v App Store"
 }

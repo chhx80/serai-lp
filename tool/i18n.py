@@ -32,7 +32,7 @@ KEEP = re.compile(r'^[\s\W\d]*$|^[A-ZÀ-ÿ]$')  # punctuation, numbers, single l
 VERBATIM = {'Serai', 'Daily Hunt', 'English', 'Deutsch', 'Русский', 'Français',
             'Қазақша', 'Čeština', 'Español', '中文', '한국어', 'Italiano', 'Монгол', 'Türkçe', '日本語', 'Português', 'Українська', 'Polski', 'Tiếng Việt', 'Oʻzbekcha', 'العربية', 'Bahasa Indonesia', 'chris@getserai.app',
             '© 2026 Christian Heuer', 'kārvān', 'sarāy', 'caravanserai',
-            'A1', 'A2', 'B1', 'B2', 'C1', 'C2', '',
+            'A1', 'A2', 'B1', 'B2', 'C1', 'C2', '', 'Android',
             # The Singing Sands' sample phrase (English: the reader learns English).
             'How much is a', 'ticket', 'Ten', 'Twenty'}
 

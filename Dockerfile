@@ -22,4 +22,5 @@ COPY pl /usr/share/nginx/html/pl
 COPY vi /usr/share/nginx/html/vi
 COPY uz /usr/share/nginx/html/uz
 COPY ar /usr/share/nginx/html/ar
+COPY id /usr/share/nginx/html/id
 EXPOSE 80

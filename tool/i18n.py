@@ -16,13 +16,13 @@ import hashlib, html, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-LANGS = ['en', 'de', 'ru', 'fr', 'kk', 'cs', 'es', 'zh', 'ko', 'it', 'mn', 'tr', 'ja', 'pt', 'uk', 'pl', 'vi', 'uz', 'ar']
+LANGS = ['en', 'de', 'ru', 'fr', 'kk', 'cs', 'es', 'zh', 'ko', 'it', 'mn', 'tr', 'ja', 'pt', 'uk', 'pl', 'vi', 'uz', 'ar', 'id']
 NATIVE = {'en': 'English', 'de': 'Deutsch', 'ru': 'Русский', 'fr': 'Français', 'kk': 'Қазақша',
           'cs': 'Čeština', 'es': 'Español', 'zh': '中文', 'ko': '한국어', 'it': 'Italiano', 'mn': 'Монгол', 'tr': 'Türkçe',
-          'ja': '日本語', 'pt': 'Português', 'uk': 'Українська', 'pl': 'Polski', 'vi': 'Tiếng Việt', 'uz': 'Oʻzbekcha', 'ar': 'العربية'}
+          'ja': '日本語', 'pt': 'Português', 'uk': 'Українська', 'pl': 'Polski', 'vi': 'Tiếng Việt', 'uz': 'Oʻzbekcha', 'ar': 'العربية', 'id': 'Bahasa Indonesia'}
 HREFLANG = {'zh': 'zh-Hans', 'pt': 'pt-BR'}
 OG_LOCALE = {'en': 'en_US', 'de': 'de_DE', 'ru': 'ru_RU', 'fr': 'fr_FR', 'kk': 'kk_KZ', 'cs': 'cs_CZ',
-             'es': 'es_ES', 'zh': 'zh_CN', 'ko': 'ko_KR', 'it': 'it_IT', 'mn': 'mn_MN', 'tr': 'tr_TR', 'ja': 'ja_JP', 'pt': 'pt_BR', 'uk': 'uk_UA', 'pl': 'pl_PL', 'vi': 'vi_VN', 'uz': 'uz_UZ', 'ar': 'ar_AR'}
+             'es': 'es_ES', 'zh': 'zh_CN', 'ko': 'ko_KR', 'it': 'it_IT', 'mn': 'mn_MN', 'tr': 'tr_TR', 'ja': 'ja_JP', 'pt': 'pt_BR', 'uk': 'uk_UA', 'pl': 'pl_PL', 'vi': 'vi_VN', 'uz': 'uz_UZ', 'ar': 'ar_AR', 'id': 'id_ID'}
 BLOCK = re.compile(r'(<(p|h1|h2|h3|dt|dd|figcaption|title)(?:\s[^>]*)?>)(.*?)(</\2>)', re.S)
 ATTR = re.compile(r'\b(alt|aria-label)="([^"]*)"')
 META = re.compile(r'(<meta (?:name="description"|property="og:(?:title|description|image:alt)") content=")([^"]*)(")')
@@ -30,7 +30,7 @@ LOOSE = re.compile(r'>([^<>]*[^\s<>][^<>]*)<')
 KEEP = re.compile(r'^[\s\W\d]*$|^[A-ZÀ-ÿ]$')  # punctuation, numbers, single letters (board cells)
 # Names that stay as they are on every page.
 VERBATIM = {'Serai', 'Daily Hunt', 'English', 'Deutsch', 'Русский', 'Français',
-            'Қазақша', 'Čeština', 'Español', '中文', '한국어', 'Italiano', 'Монгол', 'Türkçe', '日本語', 'Português', 'Українська', 'Polski', 'Tiếng Việt', 'Oʻzbekcha', 'العربية', 'chris@getserai.app',
+            'Қазақша', 'Čeština', 'Español', '中文', '한국어', 'Italiano', 'Монгол', 'Türkçe', '日本語', 'Português', 'Українська', 'Polski', 'Tiếng Việt', 'Oʻzbekcha', 'العربية', 'Bahasa Indonesia', 'chris@getserai.app',
             '© 2026 Christian Heuer', 'kārvān', 'sarāy', 'caravanserai',
             'A1', 'A2', 'B1', 'B2', 'C1', 'C2', '',
             # The Singing Sands' sample phrase (English: the reader learns English).
@@ -44,7 +44,7 @@ VERBATIM = {'Serai', 'Daily Hunt', 'English', 'Deutsch', 'Русский', 'Fran
 # (assets/app-store-badge-<lang>.svg, from Apple's marketing tools; never
 # edited). Apple has none for Kazakh, Mongolian, Uzbek and Arabic: those
 # pages keep the English badge, as Apple's guidelines ask.
-APP_STORE_BADGES = {'de', 'ru', 'fr', 'cs', 'es', 'zh', 'ko', 'it', 'tr', 'ja', 'pt', 'uk', 'pl', 'vi'}
+APP_STORE_BADGES = {'de', 'ru', 'fr', 'cs', 'es', 'zh', 'ko', 'it', 'tr', 'ja', 'pt', 'uk', 'pl', 'vi', 'id'}
 CJK = {'ar': '"SF Arabic","Geeza Pro","Noto Sans Arabic","Segoe UI",Tahoma',
        'ja': '"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",Meiryo',
        'zh': '"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei"',

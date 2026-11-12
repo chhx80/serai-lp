@@ -32,7 +32,7 @@ and support pages.
 - Structured data (JSON-LD): `WebSite`, `Person` (publisher), `MobileApplication`
   with offers, and `FAQPage` on the landing and support pages. The FAQ
   answers in the JSON-LD must match the visible text.
-- `assets/og-image-silk-19b.png` (1200×630) is the share image (Open Graph and
+- `assets/og-image-silk-20.png` (1200×630) is the share image (Open Graph and
   Twitter card), in the Silk Road Day design. It is generated from
   `tool/og_image.html` by `tool/og_image.py` (Playwright + Chromium; Pillow
   quantizes it). Assets are cached as immutable, so a new version needs a new
@@ -45,7 +45,7 @@ and support pages.
 
 ## Languages
 
-`index.html` is the English source. The other eighteen pages (`/de/`, `/ru/`, …)
+`index.html` is the English source. The other nineteen pages (`/de/`, `/ru/`, …)
 are generated from it:
 
 ```

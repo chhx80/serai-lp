@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Renders the App Store product page header (21:9, 3840×1646) and search
-results image (3:2, 3840×2560) from tool/store_header.html and
-tool/store_search.html, at 2×, without alpha (header PNG, as Apple requires; search JPEG).
+"""Renders the App Store product page header (21:9, 3840×1646), the search
+results image (3:2, 3840×2560) and the Google Play feature graphic
+(1024×500) from tool/store_header.html, tool/store_search.html and
+tool/play_feature.html, at 2×, without alpha (header PNG, as Apple requires; search JPEG).
 
     python3 tool/store_art.py <out-dir>
 
@@ -18,8 +19,10 @@ from PIL import Image
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
-PAGES = [('store_header', 1920, 823, 'app-store-header-3840x1646.png'),
-         ('store_search', 1920, 1280, 'app-store-search-3840x2560.jpg')]
+# (template, CSS width, CSS height, device scale, output file)
+PAGES = [('store_header', 1920, 823, 2, 'app-store-header-3840x1646.png'),
+         ('store_search', 1920, 1280, 2, 'app-store-search-3840x2560.jpg'),
+         ('play_feature', 1024, 500, 1, 'play-feature-1024x500.png')]
 
 
 def main():
@@ -31,8 +34,8 @@ def main():
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch()
-            for name, w, h, file in PAGES:
-                page = browser.new_page(viewport={'width': w, 'height': h}, device_scale_factor=2)
+            for name, w, h, scale, file in PAGES:
+                page = browser.new_page(viewport={'width': w, 'height': h}, device_scale_factor=scale)
                 page.goto(f'http://127.0.0.1:{server.server_port}/tool/{name}.html', wait_until='networkidle')
                 page.wait_for_timeout(300)
                 png = page.screenshot(clip={'x': 0, 'y': 0, 'width': w, 'height': h})
